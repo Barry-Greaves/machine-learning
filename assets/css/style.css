@@ -62,9 +62,11 @@ li {
     .hero-main {
         margin: 20px 30px;
         height: 600px;
-        background-image: url(../images/MACHINE-LEARNING-HER0.jpg);
+        background-image: url(../images/MACHINE\ LEARNING\ HER02.png);
         background-position: center;
         position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .about-grid {
@@ -75,6 +77,12 @@ li {
 
     .about-section {
         height: 500px;
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: right;
+        background-position-y: bottom;
     }
 
     .side-image {
