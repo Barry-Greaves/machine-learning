@@ -18,6 +18,10 @@ a {
     color: #4f4f4f;
 }
 
+li {
+    list-style: none;
+}
+
     /* header section */
 
     .header {
@@ -43,7 +47,6 @@ a {
     }
 
     .menu-nav li {
-        list-style: none;
         float: left;
         font-size: 1.5rem;
         margin-left: 1.5rem;
@@ -69,7 +72,7 @@ a {
     .hero-description {
     
         width: 75%;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(21, 21, 21, 0.7);
         padding: 10px 10px;
         position: absolute;
         bottom: 0;
@@ -107,7 +110,12 @@ a {
 
     .latest-course-container {
         width: 100%;
-        background-color: #2e2e2e;
+    }
+
+    .latest-course-info {
+        margin-top: 7px;
+        height: 200px;
+        background-color: #4f4f4f;
     }
 
     .latest-courses-images {
@@ -129,7 +137,7 @@ a {
     .latest-course-container h3 {
         font-weight: 200;
         color: white;
-        padding: 0 10px;
+        padding: 7px 10px 0;
 
     }
 
@@ -143,3 +151,49 @@ a {
         background-position: center;
         position: relative;
     }
+
+    /* footer section */
+    
+    .footer {
+        display: flex;
+        height: 100px;
+        margin: 0 30px;
+    }
+
+    .left-footer {
+    }
+
+    .middle-footer {
+        padding-left: 20px;
+    }
+
+    .middle-footer li {
+        font-family: 'Roboto Mono', sans-serif;
+        row-gap: 10px;
+        padding-bottom: 5px;
+    }
+
+    .right-footer {   
+        flex: 1;
+    }
+
+    .footer-logo {
+        height: 50px;
+    }
+
+    .left-footer p {
+        font-family: 'Roboto Mono', sans-serif;
+    }
+
+    .social-networks {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .social-networks a {
+        color: #8f5d8e;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
