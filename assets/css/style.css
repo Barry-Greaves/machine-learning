@@ -59,6 +59,46 @@ li {
 
     /* hero image section */
 
+    .hero-main {
+        margin: 20px 30px;
+        height: 600px;
+        background-image: url(../images/MACHINE-LEARNING-HER0.jpg);
+        background-position: center;
+        position: relative;
+    }
+
+    .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 60px 30px 30px;
+    }
+
+    .about-section {
+        height: 500px;
+    }
+
+    .side-image {
+        width: 100%;
+    }
+
+    .about-section h1 {
+        text-align: left;
+        font-size: 3rem;
+        font-weight: 300;
+    }
+
+    .about-section h3 {
+        text-align: left;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    .about-section p {
+        margin: 30px 0;
+        padding-right: 30px;
+        font-family: 'Roboto Mono', sans-serif;
+    }
+
     .hero-top {
         margin: 20px 30px;
         height: 600px;
@@ -104,7 +144,7 @@ li {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         height: 100%;
-        margin: 20px 30px;
+        margin: 60px 30px;
         column-gap: 1rem;
     }
 
@@ -143,7 +183,7 @@ li {
 
 
     .hero-bottom {
-        margin: 20px 30px;
+        margin: 0 30px 60px;
         height: 600px;
         background-color: #767676;
         background-image: url(../images/prohet-hero.jpg);
@@ -157,7 +197,7 @@ li {
     .footer {
         display: flex;
         height: 100px;
-        margin: 0 30px;
+        margin: 30px 30px;
     }
 
     .left-footer {
@@ -175,6 +215,7 @@ li {
 
     .right-footer {   
         flex: 1;
+        padding-right: 5px;
     }
 
     .footer-logo {
