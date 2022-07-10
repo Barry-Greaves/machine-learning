@@ -100,7 +100,7 @@ a {
     .latest-courses-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        height: 600px;
+        height: 100%;
         margin: 20px 30px;
         column-gap: 1rem;
     }
@@ -111,4 +111,15 @@ a {
 
     .latest-courses-images {
         width: 100%;
+    }
+
+
+    .hero-bottom {
+        margin: 20px 30px;
+        height: 600px;
+        background-color: #767676;
+        background-image: url(../images/prohet-hero.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
     }
