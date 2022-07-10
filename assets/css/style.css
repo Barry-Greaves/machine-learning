@@ -66,30 +66,31 @@ a {
     }
 
     .hero-description {
-        height: 200px;
-        width: 500px;
+    
+        width: 75%;
         background-color: rgba(0, 0, 0, 0.7);
         padding: 10px 10px;
         position: absolute;
-        left: 20px;
-        top: 20px;
+        bottom: 0;
+       
 
     }
 
     .hero-description h2 {
         color: white;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
     }
 
     .hero-description h3 {
         color: white;
-        font-weight: 100;
+        font-weight: 200;
         font-size: 1.5rem; 
     }
 
     .hero-description p {
         color: white;
         font-family: 'Roboto Mono', sans-serif;
-        margin-top: 10px;
     }
 
