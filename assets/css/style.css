@@ -57,6 +57,64 @@ li {
         border-bottom: 2px solid #8f5d8e;
     }
 
+
+    /* responsive stlying for header */
+
+  
+
+    .mobile-menu li {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 3rem;
+        display: none;
+    }
+
+    .nav-toggle {
+       cursor: pointer;
+     
+ 
+    }
+
+    .menu-icon {
+        width: 2rem;
+      
+    }
+
+    .close-icon {
+        width: 2rem;
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-dropdown {
+        margin: 0 30px;
+    }
+
+    .mobile-checkbox {
+       display: none;
+    }
+
+    .mobile-checkbox:checked ~ ul.mobile-menu li{
+        display:block;
+    }
+
+    @media only screen and (min-width:900px){
+        .nav-toggle {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width:900px){
+        .menu-nav {
+            display: none;
+        }
+    }
+
+
     /* hero image section */
 
     .hero-main {
