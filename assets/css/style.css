@@ -142,7 +142,7 @@ li {
     /* hero image section */
 
     .hero-main {
-        margin: 20px 30px 40px;
+        margin: 20px 30px 0;
         height: 600px;
         background-image: url(../images/MACHINE\ LEARNING\ HER02.png);
         background-position: center;
