@@ -55,12 +55,7 @@ li {
     .active {
         color: #8f5d8e;
         border-bottom: 2px solid #8f5d8e;
-    }
-
-
-    /* responsive stlying for header */
-
-  
+    }  
 
     .mobile-menu li {
         text-align: center;
@@ -71,13 +66,10 @@ li {
 
     .nav-toggle {
        cursor: pointer;
-     
- 
     }
 
     .menu-icon {
-        width: 2rem;
-      
+        width: 2rem; 
     }
 
     .close-icon {
@@ -102,19 +94,51 @@ li {
         display:block;
     }
 
-    @media only screen and (min-width:900px){
-        .nav-toggle {
-            display: none;
+
+        /* footer section */
+    
+        .footer {
+            display: flex;
+            height: 150px;
+            margin: 30px 30px 0;
         }
-    }
-
-    @media only screen and (max-width:900px){
-        .menu-nav {
-            display: none;
+    
+        .middle-footer {
+            padding-left: 20px;
         }
-    }
+    
+        .middle-footer li {
+            font-family: 'Roboto Mono', sans-serif;
+            row-gap: 10px;
+            padding-bottom: 5px;
+        }
+    
+        .right-footer {   
+            flex: 1;
+            padding-right: 5px;
+        }
+    
+        .footer-logo {
+            height: 50px;
+        }
+    
+        .left-footer p {
+            font-family: 'Roboto Mono', sans-serif;
+        }
+    
+        .social-networks {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+    
+        .social-networks a {
+            color: #8f5d8e;
+            font-size: 2rem;
+            margin-left: 1rem;
+        }
 
-
+    
     /* hero image section */
 
     .hero-main {
@@ -159,6 +183,9 @@ li {
         padding-right: 30px;
         font-family: 'Roboto Mono', sans-serif;
     }
+
+
+      /* latest tutorials section */
 
     .hero-top {
         margin: 0 30px 30px;
@@ -217,7 +244,7 @@ li {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         height: 100%;
-        margin: 30px 30px;
+        margin: 30px 30px 90px;
         column-gap: 1rem;
     }
 
@@ -267,49 +294,37 @@ li {
         position: relative;
     }
 
-    /* footer section */
-    
-    .footer {
-        display: flex;
-        height: 100px;
-        margin: 30px 30px 0;
+    /* home page responsive styling */
+
+
+    @media only screen and (min-width:900px){
+        .nav-toggle {
+            display: none;
+        }
     }
 
-    .left-footer {
+    @media only screen and (max-width:900px){
+        .menu-nav {
+            display: none;
+        }
+
+        .about-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .side-image {
+            display:none;
+        }
+
+        .latest-courses-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .latest-course-info {
+            margin-bottom: 30px;
+        }
     }
 
-    .middle-footer {
-        padding-left: 20px;
-    }
 
-    .middle-footer li {
-        font-family: 'Roboto Mono', sans-serif;
-        row-gap: 10px;
-        padding-bottom: 5px;
-    }
 
-    .right-footer {   
-        flex: 1;
-        padding-right: 5px;
-    }
-
-    .footer-logo {
-        height: 50px;
-    }
-
-    .left-footer p {
-        font-family: 'Roboto Mono', sans-serif;
-    }
-
-    .social-networks {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
-    .social-networks a {
-        color: #8f5d8e;
-        font-size: 2rem;
-        margin-left: 1rem;
-    }
 
