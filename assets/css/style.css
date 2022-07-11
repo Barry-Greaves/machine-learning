@@ -11,8 +11,7 @@ body {
     background-color: #fef8ec;
     font-family: myriad-pro-condensed, sans-serif;
     color: #4f4f4f;
-    max-width: 100%;
-    overflow-x: hidden;
+
     }
 
 a {
@@ -229,8 +228,8 @@ li {
     }
 
     .title-banner {
-        width: 100%;
-        margin: 0 30px 30px;
+       margin: 0 30px;
+        
     }
 
     .title-banner h2 {
@@ -357,15 +356,10 @@ li {
        .middle-footer li {
         float: left;
         padding: 0 1rem;
-        font-size: .8rem;
        }
 
        .social-networks {
         justify-content: center;
-       }
-
-       .social-networks a {
-        font-size: 1.5rem;
        }
 
     }
