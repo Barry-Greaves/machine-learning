@@ -144,7 +144,7 @@ li {
     .hero-main {
         margin: 20px 30px 40px;
         height: 600px;
-        background-image: url(../images/MACHINE\ LEARNING\ HER02.png);
+        background-image: url(../images/main-hero.png);
         background-position: center;
         position: relative;
         background-size: cover;
@@ -191,7 +191,7 @@ li {
         margin: 0 30px 30px;
         height: 600px;
         background-color: #767676;
-        background-image: url(../images/rytm\ hero.png);
+        background-image: url(../images/rytm-hero.png);
         background-repeat: no-repeat;
         background-position: center;
         position: relative;
@@ -288,7 +288,7 @@ li {
         margin: 30px 30px 60px;
         height: 600px;
         background-color: #767676;
-        background-image: url(../images/prohet\ hero.png);
+        background-image: url(../images/prohet-hero.png);
         background-repeat: no-repeat;
         background-position: center;
         position: relative;
