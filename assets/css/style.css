@@ -148,7 +148,7 @@ li {
 .hero-image {
     margin: 20px 0 50px;
     height: 600px;
-    background-image: url(../images/main-hero.png);
+    background-image: url(../images/machine-learning-hero.png);
     background-position: center;
     position: relative;
     background-size: cover;
@@ -290,6 +290,19 @@ li {
     font-size: 1rem;
     color: white;
     padding: 3px 10px 15px;
+}
+
+
+/* software courses page*/
+
+.software-hero {
+    margin: 20px 0 50px;
+    height: 600px;
+    background-image: url(../images/software.png);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* header responsive styling */
