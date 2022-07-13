@@ -275,6 +275,11 @@ li {
     border-radius: 5px;    
 }
 
+.latest-course-info:hover {
+    background-color: #4f4f4f;
+    color: #fef8ec;
+}
+
 .latest-courses-images {
     width: 100%;
     border-radius: 5px;
