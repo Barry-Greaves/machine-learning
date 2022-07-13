@@ -57,7 +57,7 @@ li {
         border-bottom: 2px solid #8f5d8e;
     }  
 
-      /* mobile-header */
+      /* mobile-nav */
 
     .mobile-menu li {
         text-align: center;
@@ -143,7 +143,7 @@ li {
     /* hero image section */
 
     .hero-image {
-        margin: 20px 0 0;
+        margin: 20px 0 50px;
         height: 600px;
         background-image: url(../images/main-hero.png);
         background-position: center;
@@ -153,11 +153,11 @@ li {
     }
 
     .section-title {
-        margin: 0 auto;      
+     margin-bottom: 30px;   
      }
  
      .section-title h2 {
-         font-size: 3.5rem;
+         font-size: 3rem;
          color: #8f5d8e;
          font-weight: 300;
      }
@@ -167,7 +167,7 @@ li {
     .about-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 30px 0;
+        margin: 0 0 50px;
     }
 
     .about-section {
@@ -197,7 +197,7 @@ li {
     /* latest tutorials section */
 
     .rytm-tutorial-image {
-        margin-bottom:  30px;
+        margin-bottom:  40px;
         height: 600px;
         background-color: #767676;
         background-image: url(../images/rytm-hero.png);
@@ -207,7 +207,7 @@ li {
     }
 
     .prophet-tutorial-image {
-        margin: 30px 0 60px;
+        margin: 30px 0 50px;
         height: 600px;
         background-color: #767676;
         background-image: url(../images/prohet-hero.png);
@@ -248,7 +248,7 @@ li {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         height: 100%;
-        margin: 30px 0 60px;
+        margin-bottom: 60px;
         column-gap: 1rem;
     }
 
@@ -260,7 +260,7 @@ li {
 
     .latest-course-info {
         height: 100%;
-        margin-top: 7px;
+        margin-top: 1rem;
         background-color: #4f4f4f;
     }
 
@@ -288,8 +288,7 @@ li {
     }
 
     /* header responsive styling */
-
-
+    
     @media only screen and (min-width:900px){
         .nav-toggle {
             display: none;
@@ -348,15 +347,15 @@ li {
        .middle-footer li {
         float: left;
         padding: 0 1rem;
+        font-size: .8rem;
        }
 
        .social-networks {
         justify-content: center;
        }
-
     }
 
-    /*general responsive stlying*/
+    /*general responsive styling*/
 
     @media only screen and (max-width:900px) {
         .header-logo {
