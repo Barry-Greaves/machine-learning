@@ -282,6 +282,11 @@ li {
     color: #fef8ec;
 }
 
+.latest-course-info a:hover {
+    color: #fef8ec;
+    opacity: 1;
+}
+
 .latest-courses-images {
     width: 100%;
     border-radius: 5px;
