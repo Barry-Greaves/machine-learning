@@ -12,7 +12,6 @@ body {
     font-family: myriad-pro-condensed, sans-serif;
     color: #4f4f4f;
     margin: 0 30px;
-
     }
 
 a {
@@ -24,7 +23,7 @@ li {
     list-style: none;
 }
 
-    /* header section */
+    /* desktop-header */
 
     .header {
         display: flex;
@@ -43,7 +42,6 @@ li {
         padding-right: 5px;
     }
     
-
     .header-logo {
         height: 50px;
     }
@@ -58,6 +56,8 @@ li {
         color: #8f5d8e;
         border-bottom: 2px solid #8f5d8e;
     }  
+
+      /* mobile-header */
 
     .mobile-menu li {
         text-align: center;
@@ -97,53 +97,52 @@ li {
     }
 
 
-        /* footer section */
+    /* footer section */
     
-        .footer {
-            display: flex;
-            height: 150px;
-            margin: 30px 0 0;
-        }
+    .footer {
+        display: flex;
+        height: 150px;
+        margin: 30px 0 0;
+    }
     
-        .middle-footer {
-            padding-left: 20px;
-        }
-    
-        .middle-footer li {
-            font-family: 'Roboto Mono', sans-serif;
-            row-gap: 10px;
-            padding-bottom: 5px;
-        }
-    
-        .right-footer {   
-            flex: 1;
-            padding-right: 5px;
-        }
-    
-        .footer-logo {
-            height: 50px;
-        }
-    
-        .left-footer p {
-            font-family: 'Roboto Mono', sans-serif;
-        }
-    
-        .social-networks {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-        }
-    
-        .social-networks a {
-            color: #8f5d8e;
-            font-size: 2rem;
-            margin-left: 1rem;
-        }
+    .middle-footer {
+        padding-left: 20px;
+    }
 
-    
+    .middle-footer li {
+        font-family: 'Roboto Mono', sans-serif;
+        row-gap: 10px;
+        padding-bottom: 5px;
+    }
+
+    .right-footer {   
+        flex: 1;
+        padding-right: 5px;
+    }
+
+    .footer-logo {
+        height: 50px;
+    }
+
+    .left-footer p {
+        font-family: 'Roboto Mono', sans-serif;
+    }
+
+    .social-networks {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .social-networks a {
+        color: #8f5d8e;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
     /* hero image section */
 
-    .hero-main {
+    .hero-image {
         margin: 20px 0 0;
         height: 600px;
         background-image: url(../images/main-hero.png);
@@ -152,6 +151,18 @@ li {
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    .section-title {
+        margin: 0 auto;      
+     }
+ 
+     .section-title h2 {
+         font-size: 3.5rem;
+         color: #8f5d8e;
+         font-weight: 300;
+     }
+
+    /* about section */
 
     .about-grid {
         display: grid;
@@ -177,17 +188,15 @@ li {
         color: #4f4f4f;
     }
 
-
     .about-section p {
         margin: 30px 0;
         font-family: 'Roboto Mono', sans-serif;
         color: #767676;
     }
 
+    /* latest tutorials section */
 
-      /* latest tutorials section */
-
-    .hero-top {
+    .rytm-tutorial-image {
         margin-bottom:  30px;
         height: 600px;
         background-color: #767676;
@@ -197,45 +206,40 @@ li {
         position: relative;
     }
 
-    .hero-description {
-    
+    .prophet-tutorial-image {
+        margin: 30px 0 60px;
+        height: 600px;
+        background-color: #767676;
+        background-image: url(../images/prohet-hero.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+
+    .tutorial-description {
         width: 75%;
         background-color: rgba(21, 21, 21, 0.7);
         padding: 10px 10px;
         position: absolute;
         bottom: 0;
-       
-
     }
 
-    .hero-description h2 {
+    .tutorial-description h4 {
         color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 600;
         text-transform: uppercase;
     }
 
-    .hero-description h3 {
+    .tutorial-description h3 {
         color: white;
         font-weight: 200;
         font-size: 1.5rem; 
     }
 
-    .hero-description p {
+    .tutorial-description p {
         color: white;
-        font-family: 'Roboto Mono', sans-serif;
-    }
-
-    .title-banner {
-       margin: 0 auto;
-        
-    }
-
-    .title-banner h2 {
-        font-size: 3.5rem;
-        color: #8f5d8e;
-        font-weight: 300;
-
+        font-family: 'Roboto Mono', sans-serif;      
     }
 
     /* latest courses section */
@@ -264,34 +268,23 @@ li {
         width: 100%;
     }
 
-    .latest-course-container p {
-        font-family: 'Roboto Mono', sans-serif;
-        font-size: .8rem;
-        color: white;
-        padding: 3px 10px 15px;
-    }
-    .latest-course-container h2 {
-        color: white;
-        padding: 0 10px;
-
-    }
-
     .latest-course-container h3 {
         font-weight: 200;
         color: white;
         padding: 7px 10px 0;
-
     }
 
+    .latest-course-container h4 {
+        font-size: 1.5rem;
+        color: white;
+        padding: 0 10px;
+    }
 
-    .hero-bottom {
-        margin: 30px 0 60px;
-        height: 600px;
-        background-color: #767676;
-        background-image: url(../images/prohet-hero.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        position: relative;
+    .latest-course-container p {
+        font-family: 'Roboto Mono', sans-serif;
+        font-size: 1rem;
+        color: white;
+        padding: 3px 10px 15px;
     }
 
     /* header responsive styling */
@@ -363,7 +356,7 @@ li {
 
     }
 
-    /*mobile responsive stlying*/
+    /*general responsive stlying*/
 
     @media only screen and (max-width:900px) {
         .header-logo {
