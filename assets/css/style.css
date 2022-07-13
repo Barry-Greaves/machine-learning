@@ -152,6 +152,7 @@ li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 5px;  
 }
 
 .section-title {
@@ -181,6 +182,7 @@ li {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 5px;  
 }
 
 .about-section h1 {
@@ -207,6 +209,7 @@ li {
     background-position: center;
     background-size: cover;
     position: relative;
+    border-radius: 5px;  
 }
 
 .prophet-tutorial-image {
@@ -218,6 +221,7 @@ li {
     background-position: center;
     background-size: cover;
     position: relative;
+    border-radius: 5px;  
 }
 
 .tutorial-description {
@@ -267,30 +271,30 @@ li {
 .latest-course-info {
     height: 100%;
     margin-top: 1rem;
-    background-color: #4f4f4f;
+    border: 2px solid #4f4f4f;
+    border-radius: 5px;    
 }
 
 .latest-courses-images {
     width: 100%;
+    border-radius: 5px;
 }
 
 .latest-course-container h3 {
-    font-weight: 200;
-    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
     padding: 7px 10px 0;
 }
 
 .latest-course-container h4 {
     font-size: 1.5rem;
-    color: white;
     padding: 0 10px;
 }
 
 .latest-course-container p {
     font-family: 'Roboto Mono', sans-serif;
     font-size: 1rem;
-    color: white;
-    padding: 3px 10px 15px;
+    padding: 7px 10px 15px;
 }
 
 
@@ -304,6 +308,7 @@ li {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 5px;  
 }
 
 /* hardware courses page */
@@ -316,6 +321,7 @@ li {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 5px;  
 }
 
 /* header responsive styling */
@@ -369,6 +375,10 @@ li {
 
     .right-footer {
         margin: 1rem 0;
+    }
+
+    .right-footer a {
+        font-size: 1.5rem;
     }
 
     .middle-footer {
