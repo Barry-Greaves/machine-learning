@@ -21,6 +21,7 @@ a {
 
 a:hover {
    opacity: .7;
+   cursor: pointer;
 }
 
 li {
@@ -274,6 +275,7 @@ li {
     border: 2px solid #4f4f4f;
     border-radius: 5px;    
 }
+
 
 .latest-course-info:hover {
     background-color: #4f4f4f;
