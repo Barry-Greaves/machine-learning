@@ -106,7 +106,7 @@ li {
 
 .footer {
     display: flex;
-    margin: 30px 0;
+    margin: 60px 0 30px;
 }
 
 .middle-footer {
@@ -258,7 +258,6 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 100%;
-    margin-bottom: 60px;
     column-gap: 1rem;
     row-gap: 1rem;
 }
@@ -371,7 +370,7 @@ li {
 
 .tutorial-container {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 900px;
 }
 
 .tutorial-container h3 {
@@ -386,6 +385,12 @@ li {
     margin: 20px 0 20px;
     color: #8f5d8e;
 
+}
+
+.rytm-images {
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 /* header responsive styling */
