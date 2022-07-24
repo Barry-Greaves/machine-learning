@@ -365,6 +365,29 @@ li {
     font-size: 2rem;
 }
 
+.tutorial-container p {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.tutorial-container {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.tutorial-container h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.tutorial-container h4 {
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 20px 0 20px;
+    color: #8f5d8e;
+
+}
+
 /* header responsive styling */
 
 @media only screen and (min-width:900px){
