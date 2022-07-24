@@ -336,6 +336,35 @@ li {
     border-radius: 5px;  
 }
 
+/* tutorials pages */
+
+.rytm-tutorial-hero {
+    margin: 20px 0 20px;
+    height: 400px;
+    background-color: #767676;
+    background-image: url(../images/rytm-hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 5px;  
+}
+
+.tutorial-description h1, h2 {
+    color: #fef8ec
+}
+
+.tutorial-description h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.tutorial-description h2 {
+    font-weight: 200;
+    font-size: 2rem;
+}
+
 /* header responsive styling */
 
 @media only screen and (min-width:900px){
