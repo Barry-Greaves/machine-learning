@@ -147,8 +147,8 @@ li {
 /* hero image section */
 
 .hero-image {
-    margin: 20px 0 50px;
-    height: 600px;
+    margin: 30px 0 50px;
+    height: 400px;
     background-image: url(../images/machine-hero-new.png);
     background-position: center;
     background-size: cover;
@@ -313,7 +313,7 @@ li {
 /* software courses page */
 
 .software-hero {
-    margin: 20px 0 50px;
+    margin: 30px 0 50px;
     height: 400px;
     background-image: url(../images/software-hero.png);
     background-position: center;
@@ -321,12 +321,13 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;  
+    border: 3px solid #8f5d8e;
 }
 
 /* hardware courses page */
 
 .hardware-hero {
-    margin: 20px 0 50px;
+    margin: 30px 0 50px;
     height: 400px;
     background-image: url(../images/hardware-hero.png);
     background-position: center;
@@ -334,6 +335,7 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;  
+    border: 3px solid #8f5d8e;
 }
 
 /* tutorials pages */
