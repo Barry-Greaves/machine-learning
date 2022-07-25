@@ -140,7 +140,7 @@ li {
 
 .social-networks a {
     color: #8f5d8e;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-left: 1rem;
 }
 
@@ -148,7 +148,7 @@ li {
 
 .hero-image {
     margin: 15px 0 30px;
-    height: 400px;
+    height: 60vh;
     background-image: url(../images/machine-hero-new.png);
     background-position: center;
     background-size: cover;
@@ -314,7 +314,7 @@ li {
 
 .software-hero {
     margin: 15px 0 30px;
-    height: 400px;
+    height: 60vh;
     background-image: url(../images/software-hero.png);
     background-position: center;
     position: relative;
@@ -328,7 +328,7 @@ li {
 
 .hardware-hero {
     margin: 15px 0 30px;
-    height: 400px;
+    height: 60vh;
     background-image: url(../images/hardware-hero.png);
     background-position: center;
     position: relative;
@@ -415,25 +415,47 @@ li {
 }
 
 .sign-up-form {
-    max-width: 500px;
+    max-width: 600px;
     padding: 20px 40px 40px;
     margin: 0 auto;
 }
 
 #left-contact h1 {
-    margin-bottom: 15px;
     font-weight: 400;
     font-size: 3rem;
     text-transform: uppercase;
     color: #8f5d8e;
 }
 
+#left-contact h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #767676;
+    margin-bottom: 40px;
+}
+
 #left-contact p {
     margin-bottom: 15px;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #8f5d8e;
     font-family: 'Roboto Mono', sans-serif;
+}
+
+#right-contact {
+    flex: 1;
+}
+
+#right-contact p {
+    font-family: 'Roboto Mono', sans-serif;
+    margin-bottom: 15px;
+}
+
+#right-contact h3 {
+    font-weight: 400;
+    color: #8f5d8e;
+    font-size: 2rem;
+    margin-bottom: 15px;
 }
 
 .submit-button {
@@ -488,6 +510,19 @@ li {
     #contact-container {
         flex-direction: column;
     }
+
+    .sign-up-form {
+        padding: 20px 0 40px;
+    }
+
+    #contact-container {
+        padding-top: 15px;
+    }
+
+    #right-contact {
+        text-align: center;
+    }
+
 }
 
 /* header responsive styling */
