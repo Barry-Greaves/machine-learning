@@ -504,6 +504,14 @@ li {
     font-size: 1.5rem;
 }
 
+/* software course info page */
+
+.course-title h1 {
+    font-size: 3rem;
+    color: #8f5d8e;
+    font-weight: 400;
+}
+
 /* contact page responsive stlying */
 
 @media only screen and (max-width:900px){
