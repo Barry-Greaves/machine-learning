@@ -396,6 +396,64 @@ li {
     margin-bottom: 30px;
 }
 
+/* contact page */
+
+#form-container {
+    margin: 75px 0;
+    width: 100%;
+    z-index: 0;  
+}
+
+.sign-up-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sign-up-form h2 {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #8f5d8e;
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #8f5d8e;
+    background-color: rgb(255, 255, 255);
+    color: #8f5d8e;
+    display: block;
+}
+
+.text-input {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 20px;
+    border-radius: 2px;
+    border: 1px solid #8f5d8e;
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+    font-size: 1rem;
+    
+}
+
+.message-input {
+    width: 100%;
+    height: 150px;
+    margin: 5px 0 20px;
+    border-radius: 2px;
+    border: 1px solid #8f5d8e;
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+    font-size: 1rem;
+}
+
 /* header responsive styling */
 
 @media only screen and (min-width:900px){
