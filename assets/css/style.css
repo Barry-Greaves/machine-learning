@@ -497,19 +497,80 @@ li {
     background-color: #fef8ec;
     color: #4f4f4f;
     font-size: 1rem;
-    font-family: 'Roboto Mono', sans-serif;
+    font-fami
+    ly: 'Roboto Mono', sans-serif;
 }
 
 .form-label {
     font-size: 1.5rem;
 }
 
-/* software course info page */
+/* course info page */
+
+.course-title {
+    margin-bottom: 30px;;
+}
 
 .course-title h1 {
     font-size: 3rem;
     color: #8f5d8e;
     font-weight: 400;
+}
+
+.course-page-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.course-details {
+    height: 1000px;
+    flex: 3;
+}
+
+.course-blurb {
+    padding-right: 15px;
+}
+
+.course-blurb h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #4f4f4f;
+    margin-bottom: 15px;;
+}
+
+.course-blurb p {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.course-offers {
+    height: 1000px;
+    flex: 1;
+    border: 2px solid #8f5d8e;
+    border-radius: 5px;;
+}
+
+.course-overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.course-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.course-image {
+    padding-right: 15px;
+}
+
+.course-content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.overview-img {
+    width: 100%;
 }
 
 /* contact page responsive stlying */
