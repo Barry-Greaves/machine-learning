@@ -506,14 +506,42 @@ li {
 
 /* course info page */
 
+.ableton-hero {
+    margin: 15px 0 30px;
+    height: 40vh;
+    background-image: url(../images/ableton-beginners.png);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;  
+ 
+}
+
 .course-title {
-    margin-bottom: 30px;;
+    background-color: rgba(15, 15, 15, 0.7);
+    padding: 0 10px 10px 15px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+    
 }
 
 .course-title h1 {
-    font-size: 3rem;
-    color: #8f5d8e;
+    font-size: 2.5rem;
+    color: #fef8ec;
     font-weight: 400;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: .6rem;
+}
+
+.course-title h3 {
+    color: #fef8ec;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top: 10px;
 }
 
 .course-page-container {
