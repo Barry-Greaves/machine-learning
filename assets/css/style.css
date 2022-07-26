@@ -555,12 +555,6 @@ li {
     font-size: 1rem;
 }
 
-.course-offers {
-    flex: 1;
-    border: 2px solid #8f5d8e;
-    border-radius: 5px;;
-}
-
 .course-overview {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -600,19 +594,94 @@ li {
     border-radius: 5px;
 }
 
+.course-offers {
+    flex: 1;
+    border: 2px solid #8f5d8e;
+    border-radius: 5px;
+    background-color: #8f5d8e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .offer-box {
-    margin: 30px 15px;
+    margin: 0 15px;
     text-align: center;
+    border: 2px solid #fef8ec;
+    border-radius: 5px;
+    padding: 15px 5px;
 }
 
 .offer-box h5 {
     text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: 400;
+    color: #fef8ec;
+}
+
+.offer-box p {
+    color: #fef8ec;
+}
+
+.offer-box ul {
+    margin-bottom: 15px;
+}
+
+.offer-box li {
+    color: #fef8ec;
+    line-height: 1.7rem;
+    font-size: 1.3rem;
 }
 
 .price-offer {
     font-size: 3rem;
+    color: #fef8ec;
+}
+
+.sign-up {
+    border: 1px solid #fef8ec;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.sign-up p {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:900px) {
+    .course-page-container {
+        flex-direction: column;
+    }
+
+    .course-overview {
+        grid-template-columns: 1fr;
+    }
+
+    .course-content-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 15px;
+    }
+
+    .course-details {
+        padding-right: 0;
+    }
+
+    .course-info {
+        margin: 10px 0 30px;
+    }
+
+    .offer-box {
+        margin: 30px 15px;
+    }
+
+    .course-img {
+        margin-top: 30px;
+    }
+    
 }
 
 
