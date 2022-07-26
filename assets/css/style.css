@@ -497,8 +497,7 @@ li {
     background-color: #fef8ec;
     color: #4f4f4f;
     font-size: 1rem;
-    font-fami
-    ly: 'Roboto Mono', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 .form-label {
@@ -523,12 +522,20 @@ li {
 }
 
 .course-details {
-    height: 1000px;
     flex: 3;
+    padding-right: 30px;
 }
 
-.course-blurb {
-    padding-right: 15px;
+.course-headers {
+    margin: 30px 0;
+}
+
+.course-headers h3 {
+    color: #8f5d8e;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .course-blurb h2 {
@@ -536,15 +543,19 @@ li {
     font-weight: 600;
     text-transform: uppercase;
     color: #4f4f4f;
-    margin-bottom: 15px;;
+    margin-bottom: 15px;
+}
+
+.course-blurb {
+    padding-right: 30px;
 }
 
 .course-blurb p {
     font-family: 'Roboto Mono', sans-serif;
+    font-size: 1rem;
 }
 
 .course-offers {
-    height: 1000px;
     flex: 1;
     border: 2px solid #8f5d8e;
     border-radius: 5px;;
@@ -560,18 +571,51 @@ li {
     border-radius: 5px;
 }
 
-.course-image {
-    padding-right: 15px;
+.course-info {
+    margin-top: 10px;
+}
+
+.course-info p {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: .9rem;
+    margin-top: 10px;
+}
+
+.course-info h4 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #8f5d8e;
+
 }
 
 .course-content-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
 }
 
 .overview-img {
     width: 100%;
+    border-radius: 5px;
 }
+
+.offer-box {
+    margin: 30px 15px;
+    text-align: center;
+}
+
+.offer-box h5 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.price-offer {
+    font-size: 3rem;
+}
+
+
 
 /* contact page responsive stlying */
 
