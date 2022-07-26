@@ -422,7 +422,7 @@ li {
 
 #left-contact h1 {
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     color: #8f5d8e;
 }
@@ -455,7 +455,7 @@ li {
     font-weight: 400;
     color: #8f5d8e;
     font-size: 2rem;
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 
 .submit-button {
@@ -701,9 +701,7 @@ li {
         padding-top: 15px;
     }
 
-    #right-contact {
-        text-align: center;
-    }
+   
 
 }
 
