@@ -507,7 +507,7 @@ li {
 /* course info page */
 
 .ableton-hero {
-    margin: 15px 0 30px;
+    margin: 15px 0 60px;
     height: 40vh;
     background-image: url(../images/ableton-beginners.png);
     background-position: center;
@@ -528,9 +528,9 @@ li {
 }
 
 .course-title h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #fef8ec;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     line-height: 40px;
     letter-spacing: .6rem;
@@ -542,6 +542,7 @@ li {
     font-weight: 400;
     font-size: 1rem;
     padding-top: 10px;
+    margin-bottom: 5px;
 }
 
 .course-page-container {
@@ -555,7 +556,9 @@ li {
 }
 
 .course-headers {
-    margin: 30px 0;
+    margin: 50px 0;
+    border: 2px solid #8f5d8e;
+    border-radius: 5px;
 }
 
 .course-headers h3 {
@@ -568,7 +571,7 @@ li {
 }
 
 .course-blurb h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     text-transform: uppercase;
     color: #4f4f4f;
@@ -605,9 +608,9 @@ li {
 }
 
 .course-info h4 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
     color: #8f5d8e;
 
 }
@@ -643,8 +646,8 @@ li {
 
 .offer-box h5 {
     text-transform: uppercase;
-    font-size: 1.2rem;
-    font-weight: 400;
+    font-size: 1.7rem;
+    font-weight: 200;
     color: #fef8ec;
 }
 
@@ -665,6 +668,7 @@ li {
 .price-offer {
     font-size: 3rem;
     color: #fef8ec;
+    margin-bottom: 8px;
 }
 
 .sign-up {
@@ -681,15 +685,26 @@ li {
 }
 
 .module-list {
-    padding-left: 15px;
     margin-top: 15px;
 }
 
+
+
 .module-list li {
     font-family: 'Roboto Mono', sans-serif;
-    list-style: circle;
+    list-style-type: circle;
+    list-style-position: inside;
     line-height: 2rem;
 }
+
+.offer-list li {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1rem;
+
+}
+
+
+
 
 @media only screen and (max-width:900px) {
     .course-page-container {
