@@ -618,7 +618,7 @@ li {
 .course-content-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 15px;
+    column-gap: 30px;
 }
 
 .overview-img {
@@ -641,7 +641,7 @@ li {
     text-align: center;
     border: 2px solid #fef8ec;
     border-radius: 5px;
-    padding: 15px 5px;
+    padding: 20px 5px 30px;
 }
 
 .offer-box h5 {
@@ -672,14 +672,14 @@ li {
 }
 
 .sign-up {
-    border: 1px solid #fef8ec;
+    border: 2px solid #fef8ec;
     border-radius: 5px;
     display: inline-block;
     padding: 5px 10px;
 }
 
 .sign-up p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 0;
     font-weight: 600;
 }
@@ -700,7 +700,10 @@ li {
 .offer-list li {
     font-family: 'Roboto Mono', sans-serif;
     font-size: 1rem;
+}
 
+.offer-list {
+    margin-bottom: 10px;
 }
 
 
