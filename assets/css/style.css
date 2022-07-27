@@ -580,6 +580,17 @@ li {
     border-radius: 5px;  
 }
 
+.machines-hero {
+    margin: 15px 0 60px;
+    height: 50vh;
+    background-image: url(../images/machines-hero.png);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;  
+}
+
 .course-title {
     background-color: #8f5d8e;
     padding: 0 10px 10px 15px;
@@ -590,8 +601,8 @@ li {
 }
 
 .course-title-alt {
-    background-color: #767676;
-    padding: 0 10px 10px 15px;
+    background-color: #4f4f4f;
+    padding: 0 20px 25px;
     position: absolute;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -599,11 +610,12 @@ li {
 }
 
 .course-title h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #fef8ec;
     font-weight: 600;
     text-transform: uppercase;
-    line-height: 40px;
+    line-height: 50px;
+    letter-spacing: 5px;
 }
 
 .course-title h3 {
@@ -616,11 +628,12 @@ li {
 }
 
 .course-title-alt h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #fef8ec;
     font-weight: 600;
     text-transform: uppercase;
-    line-height: 40px;
+    line-height: 50px;
+    letter-spacing: 5px;
 }
 
 .course-title-alt h3 {
