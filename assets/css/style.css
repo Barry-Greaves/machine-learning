@@ -148,14 +148,14 @@ li {
 
 .hero-image {
     margin: 15px 0 30px;
-    height: 60vh;
-    background-image: url(../images/machine-hero-new.png);
+    height: 80vh;
+    background-image: url(../images/hero-main.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;  
-    border: 3px solid #8f5d8e;
 }
+
 
 .section-title {
     margin-bottom: 30px;   
@@ -527,7 +527,7 @@ li {
 
 .ableton-hero {
     margin: 15px 0 60px;
-    height: 40vh;
+    height: 70vh;
     background-image: url(../images/ableton-beginners.png);
     background-position: center;
     position: relative;
