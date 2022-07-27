@@ -558,11 +558,43 @@ li {
     border-radius: 5px;  
 }
 
+.rytm-hero {
+    margin: 15px 0 60px;
+    height: 50vh;
+    background-image: url(../images/rytm-course-hero.png);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;  
+}
+
+.octatrack-hero {
+    margin: 15px 0 60px;
+    height: 50vh;
+    background-image: url(../images/octatrack-course-hero.png);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;  
+}
+
 .course-title {
     background-color: #8f5d8e;
     padding: 0 10px 10px 15px;
     position: absolute;
-    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    bottom: 0;
+}
+
+.course-title-alt {
+    background-color: #767676;
+    padding: 0 10px 10px 15px;
+    position: absolute;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     bottom: 0;
 }
 
@@ -572,10 +604,26 @@ li {
     font-weight: 600;
     text-transform: uppercase;
     line-height: 40px;
-    letter-spacing: .6rem;
 }
 
 .course-title h3 {
+    color: #fef8ec;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.course-title-alt h1 {
+    font-size: 3rem;
+    color: #fef8ec;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.course-title-alt h3 {
     color: #fef8ec;
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 400;
