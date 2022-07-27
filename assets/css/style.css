@@ -534,16 +534,36 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;  
- 
+}
+
+.wavetable-hero {
+    margin: 15px 0 60px;
+    height: 50vh;
+    background-image: url(../images/wavetable-hero.png);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;  
+}
+
+.mixing-hero {
+    margin: 15px 0 60px;
+    height: 50vh;
+    background-image: url(../images/mixing-hero.png);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;  
 }
 
 .course-title {
-    background-color: rgba(15, 15, 15, 0.7);
+    background-color: #8f5d8e;
     padding: 0 10px 10px 15px;
     position: absolute;
     border-radius: 5px;
     bottom: 0;
-    
 }
 
 .course-title h1 {
