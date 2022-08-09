@@ -325,7 +325,6 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;  
-    border: 3px solid #8f5d8e;
 }
 
 /* hardware courses page */
@@ -339,14 +338,13 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;  
-    border: 3px solid #8f5d8e;
 }
 
 /* tutorials pages */
 
 .tutorial-hero {
     margin: 15px 0 30px;
-    height: 50vh;
+    height: 60vh;
     background-image: url(../images/tutorial-hero-2.png);
     background-position: center;
     position: relative;
