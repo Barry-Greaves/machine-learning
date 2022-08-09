@@ -377,8 +377,15 @@ p {
 }
 
 .page-description {
-    max-width: 70%;
-    margin: 0 auto 30px;
+    max-width: 1000px;
+    margin: 0 auto 60px;
+}
+
+.page-description h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #8f5d8e;
+    margin-bottom: 30px;
 }
 
 .page-title h1 {
