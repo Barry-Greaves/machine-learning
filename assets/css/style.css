@@ -905,6 +905,34 @@ p {
 }
 
 
+/* thank you page */
+
+#thankyou-container {
+   height: 80vh;
+   display: flex;
+   align-items: center;
+}
+
+#thankyou-message {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#thankyou-message h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #8f5d8e;
+}
+
+#thankyou-message h2 {
+    color: #8f5d8e;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
 
 /* contact page responsive stlying */
 
