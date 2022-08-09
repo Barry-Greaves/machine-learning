@@ -23,7 +23,7 @@ a:hover {
    cursor: pointer;
 }
 
-li:hover {
+li a:hover {
     opacity: .7;
 }
 
@@ -663,45 +663,19 @@ p {
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     bottom: 0;
+    width: 50%;
 }
 
-.course-title-alt {
-    background-color: rgba(21, 21, 21, 0.7);
-    padding: 0 20px 15px;
-    position: absolute;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    bottom: 0;
-}
 
 .course-title h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #fef8ec;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
     line-height: 50px;
-    letter-spacing: 5px;
 }
 
 .course-title h3 {
-    color: #fef8ec;
-    font-family: 'Roboto Mono', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    padding-top: 10px;
-    margin-bottom: 5px;
-}
-
-.course-title-alt h1 {
-    font-size: 4rem;
-    color: #fef8ec;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 50px;
-    letter-spacing: 5px;
-}
-
-.course-title-alt h3 {
     color: #fef8ec;
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 400;
