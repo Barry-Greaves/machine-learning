@@ -28,6 +28,10 @@ li {
     list-style: none;
 }
 
+p {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
 /* desktop-header */
 
 .header {
@@ -342,14 +346,53 @@ li {
 
 .tutorial-hero {
     margin: 15px 0 30px;
-    height: 60vh;
-    background-image: url(../images/tutorials-hero.png);
+    height: 50vh;
+    background-image: url(../images/tutorial-hero-2.png);
     background-position: center;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;  
-    border: 3px solid #8f5d8e;
+}
+
+.page-title {
+    background-color: rgba(21, 21, 21, 0.7);
+    padding: 10px 10px 10px 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.page-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.page-offer {
+    background-color: #8f5d8e;
+    padding: 10px 10px 10px 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.page-description {
+    max-width: 70%;
+    margin: 0 auto 30px;
+}
+
+.page-title h1 {
+    font-size: 4rem;
+    color: #fef8ec;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.page-offer h2 {
+    font-size: 1.7rem;
+    color: #fef8ec;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .rytm-tutorial-hero {
