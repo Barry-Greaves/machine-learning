@@ -20,8 +20,11 @@ a {
 }
 
 a:hover {
-   opacity: .7;
    cursor: pointer;
+}
+
+li:hover {
+    opacity: .7;
 }
 
 li {
