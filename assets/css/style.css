@@ -908,10 +908,6 @@ p {
         flex-direction: column;
     }
 
-    .course-overview {
-        grid-template-columns: 1fr;
-    }
-
     .course-content-grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -922,18 +918,20 @@ p {
         padding-right: 0;
     }
 
-    .course-info {
-        margin: 10px 0 30px;
-    }
-
     .offer-box {
         margin: 30px 15px;
-    }
+    }    
+}
 
-    .course-img {
-        margin-top: 30px;
-    }
-    
+@media only screen and (max-width:1200px) {
+.course-overview {
+    grid-template-columns: 1fr;
+}
+
+.course-img {
+    margin-top: 30px;
+}
+
 }
 
 
