@@ -846,6 +846,7 @@ p {
 }
 
 
+
 /* privacy page*/
 
 #privacy-container {
@@ -869,6 +870,29 @@ p {
     margin: 15px 0 30px;
 }
 
+/* about page*/ 
+
+/* privacy page*/
+
+#about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about-content {
+    margin: 60px 0;
+}
+
+#about-content h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #8f5d8e;
+}
+
+#about-content p {
+    margin: 30px 0 30px;
+}
 
 
 @media only screen and (max-width:900px) {
@@ -928,9 +952,9 @@ p {
 
 #thankyou-message h2 {
     color: #8f5d8e;
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 
