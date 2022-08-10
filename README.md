@@ -9,3 +9,10 @@ From their Dublin studio they have created an extensive library of production tu
 The goal of this project was to build a creative & striking website which helps to create an indentity for the company as well as one which is easy to navigate, properly structured and responsive. 
 
 The website was created using HTML and CSS. 
+<br>
+<br>
+
+![page-layout](https://user-images.githubusercontent.com/107034179/183979288-29b5ca3f-c45e-4d69-aa3b-b609b7dcfd6a.png)
+
+<hr>
+
