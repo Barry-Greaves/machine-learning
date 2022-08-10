@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Machine Learning logo](https://barry-greaves.github.io/machine-learning/assets/images/Logo1.png)
 
 Welcome Barry-Greaves,
 
