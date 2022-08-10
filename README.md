@@ -20,8 +20,22 @@ The website was created using HTML and CSS.
 
 ### Header 
 
-The header section appears on all pages of the website (apart from thankyou.html) and contains the Machine Learning logo positioned on the right and a nav menu with links to each part of the website on the left. 
+The header section appears on all pages of the website (apart from thankyou.html) and contains the Machine Learning logo positioned on the right and a nav menu with links to each part of the website on the left. The links in the nav menu change color to indicate to the user which section of the website they are currently browsing.
 
-<br>
+![header3](https://user-images.githubusercontent.com/107034179/184014417-94409fa9-6de8-4df5-9692-6b7f8ac3c600.jpg)
 
-![header](https://user-images.githubusercontent.com/107034179/184008151-1e9b35e3-cc5d-4bef-9e8b-e697b2ea5f91.jpg)
+Using responsive CSS styling, the list items disappear when the screen reaches 900px in width and is replaced with a burger menu icon which generates a drop down list when clicked.
+
+![headermobile](https://user-images.githubusercontent.com/107034179/184014942-449812c4-76df-4545-88e2-0f0ac4878239.jpg)
+
+<hr>
+
+### Footer
+
+The footer appears at the bottom of all paages (apart from thankyou.html) and contains the Machine Learning logo positioned on the left alongside links to the contact, about and privacy pages. There are icons which link to social media platforms positioned on the right. 
+
+![footer](https://user-images.githubusercontent.com/107034179/184015786-6a9187a2-2f2c-4f53-840b-dddb5708ccd3.jpg)
+
+Using responsive CSS styling, all items are centered and the social media icons are placed underneath logo and website links when the page reaches 900px in width.
+
+![footer-mobile](https://user-images.githubusercontent.com/107034179/184016126-978ff217-6a7a-4bb7-9dd1-7b74700f9496.jpg)
