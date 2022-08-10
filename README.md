@@ -39,3 +39,37 @@ The footer appears at the bottom of all paages (apart from thankyou.html) and co
 Using responsive CSS styling, all items are centered and the social media icons are placed underneath logo and website links when the page reaches 900px in width.
 
 ![footer-mobile](https://user-images.githubusercontent.com/107034179/184016126-978ff217-6a7a-4bb7-9dd1-7b74700f9496.jpg)
+
+<hr>
+
+### Home Page
+
+This is the first page users will see when they enter the website and needs to serve two purposes. The first is to be visually appealing, presenting the companies aesthetic to gain the users attention. The second is provide information on who the company are and what they can offer to encourage the user to continue and explor all  other areas of the website. The home page is split into 4 sections; the hero image, the about section, the latest tutorials section and the latest courses section. 
+
+#### Hero Image
+
+The hero image covers the width of the page and is coded to be 70vh in height. It contains an visually striking studio set up overlayed with the Machine Learning logo and color scheme. 
+
+![homehero](https://user-images.githubusercontent.com/107034179/184017969-4819db13-11da-4e17-92a4-fdad49f490ab.jpg)
+
+#### About Section
+
+The about section contains essential information about Machine Learning, and what they offer to customers. It also contains links to relevant sections on the website. 
+
+![about](https://user-images.githubusercontent.com/107034179/184018584-548cb99b-5608-491b-a0fa-053166e06fdc.jpg)
+
+#### Latest tutorials section
+
+To engage potential customers as soon as they land on the site, it was important to include links to the Machine Learning content on the home page. The latest tutorials section was chosen to appear first as this is free content and can be used to entice customers to other sections of the website. The tutorials section containts two more images which span the widht of the page, containing a tutorial title and brief description. 
+
+![tutorials2](https://user-images.githubusercontent.com/107034179/184019256-46201aa3-3675-40e6-ad6f-6d4931237500.jpg)
+
+#### Latest courses section
+
+Finally, the latest courses section gives customers a look at the paid content offered on the website. It was constructed with CSS grid and displays an image and description of 3 courses. 
+
+![courses](https://user-images.githubusercontent.com/107034179/184019533-744568f6-1170-4f43-987e-d50727c9c8ba.jpg)
+
+<hr>
+
+
