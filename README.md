@@ -1,4 +1,4 @@
-![Machine Learning logo](https://barry-greaves.github.io/machine-learning/assets/images/Logo1.png | width=100)
+![Machine Learning logo](https://barry-greaves.github.io/machine-learning/assets/images/Logo1.png | width=200px)
 
 Welcome Barry-Greaves,
 
