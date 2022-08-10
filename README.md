@@ -16,3 +16,12 @@ The website was created using HTML and CSS.
 
 <hr>
 
+# Features
+
+### Header 
+
+The header section appears on all pages of the website (apart from thankyou.html) and contains the Machine Learning logo positioned on the right and a nav menu with links to each part of the website on the left. 
+
+<br>
+
+![header](https://user-images.githubusercontent.com/107034179/184008151-1e9b35e3-cc5d-4bef-9e8b-e697b2ea5f91.jpg)
