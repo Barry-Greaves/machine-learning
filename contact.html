@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng"></html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -87,11 +87,11 @@
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="https://barry-greaves.github.io/machine-learning/thankyou.html">
                 <label for="name" class="form-label">Name:</label>
-                <input class="text-input" type="text" name="name"required>
+                <input class="text-input" type="text" id="name" required>
                 <label for="email" class="form-label">Email:</label>
-                <input class="text-input" type="email" name="email"required>  
+                <input class="text-input" type="email" id="email" required>  
                 <label for="phone-number" class="form-label">Phone Number (optional):</label>  
-                <input class="text-input" type="text" name="phone-numnber">
+                <input class="text-input" type="text" id="phone-number">
                 <label for="courses-dropdown" class="form-label">What course are you interested in?</label>
 	                <select id="courses-dropdown">
                         <option>Select</option>
@@ -104,7 +104,7 @@
                         <option>None</option>
                     </select>
                 <label for="message" class="form-label">Message:</label>
-                <textarea class="message-input" rows="10" type="text" name="message"required></textarea>
+                <textarea class="message-input" rows="10" id="message" required></textarea>
                 <button class="submit-button" type="submit">Send</button>
             </form>
             </div>
