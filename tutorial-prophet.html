@@ -94,22 +94,39 @@
             <h4>Setting up the Rev2</h4>
             <img class="tutorial-images" src="assets/images/prophet-tutorial.png">
             <p>
-                First you will need to configure the Prophet REV 2 so it allows two layers to be sequenced simultaneously by an external sequencer. You can do this in the menu system. 
+                First you will need to configure the Prophet REV 2 so it allows two layers to be sequenced simultaneously by an external sequencer. Press the global button and use the parameter and value knobs to scroll
+                through to menu number 15: multi-mode.
                 <br>
                 <br>
+                Multi Mode allows separate MIDI control of voices 1-8 and voices 9-16 on 16-voice systems. (On 8-voice systems
+                this is voices 1-4 and voices 5-8.) This enables independent, bi-timbral control of the Prophet Rev2. 
+                <br>
+                <br>
+                When Multi Mode is on, the Prophet Rev2 responds to MIDI data on two consecutive MIDI channels — the base channel (selected in the Global
+                menu) and the next highest channel. The base channel controls voices 1-8 (or 1-4 on 8-voice systems) and the other channel controls voices 9-16
+                (or 5-8 on 8-voice systems). Notes, program changes, and other MIDI data received on the specified channels provide independent control of the two parts. 
                 
             </p>
             <h4>Setting up the external sequencer</h4>
             <img class="tutorial-images" src="assets/images/prophet-tutorial-2.png">
             <p>
-                Press [SCENE] to enter scene mode. A scene is a collection of fixed parameter locks. It enables an instant makeover of how the tracks of the active kit will sound, at the touch of a single pad. 12 scenes may be as-signed, one for each of the [PADS].
+                For the purposes of this tutorial, we will use the Elektron Digitone to sequence the Rev2. This can be done with any midi sequencer with 2 or more midi channels.
                 <br>
                 <br>
-                Press one of the [PADS] when in scene mode to activate a scene. Only one scene may be active at a time. When active, the pad to which the scene is assigned will glow blue. The <PADS> of non-empty, inactive scenes glow half-bright blue. Empty scenes have unlit pads. If the pad of the active track contains a scene, the pad will exhibit violet color (a mix of the active track color and the scene color, red and blue).
+                The Digitone also has four MIDI tracks. They are used to control external MIDI equipped gear. Each MIDItrack can trigger a chord of up to eight notes with adjustable parameters such as velocity
+                and length, control pitch bend and aftertouch, as well as eight freely assignable MIDI control change parameters (MIDI CCs).
                 <br>
                 <br>
-                There are 12 assignable scenes available, one for each pad. Make sure SCENE mode is active. Select which scene to edit by pressing one of the [PADS]. Then press and hold the [SCENE] key for a short while to edit the scene. When SCENE mode is active, [FUNCTION] + one of the [PADS] offers a convenient short-cut to scene edit mode.When scene edit is active, the LCD screen left-hand side will reveal a list showing, from the top, the scene number, the number of locked parameters, an option to clear the scene and an option to clear all scenes. Use the [ARROW] keys [UP] and [DOWN] to navigate this list.
-    
+                A MIDI track can have any MIDI channel assigned to it, we will need to set the midi tracks to channels 5 and 6 as they are the standard for the Rev2
+                <br>
+                <br>
+                Once you have assigned the correct channels, you can then scroll through the presets on the Rev2 using the bank and programme parameters picutred above.
+                <br>
+                <br>
+                One of the main benefits of using the Digitone to sequence the Rev2 is that you can send programme change messages per pattern or even per step! This means you can have one pattern playing a bassline and lead from the Rev2 and when you jump to the next pattern you can drop the bass and bring in a pad.
+                <br>
+                <br>
+                The possibilites are endless.
             </p>
         </div>
     </section>
