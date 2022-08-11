@@ -328,11 +328,15 @@ p {
     border-radius: 5px;  
 }
 
-/* software courses page responsive styling */
+/*courses pages responsive styling */
 
 @media only screen and (max-width:900px) {
     
     .software-hero {
+        height: 40vh;
+    }
+
+    .hardware-hero {
         height: 40vh;
     }
 
@@ -347,7 +351,7 @@ p {
 .hardware-hero {
     margin: 15px 0 30px;
     height: 60vh;
-    background-image: url(../images/hardware-hero.png);
+    background-image: url(../images/hardware-hero.webp);
     background-position: center;
     position: relative;
     background-size: cover;
