@@ -344,6 +344,10 @@ p {
         display: none;
     }
 
+    .tutorials-hero {
+        height: 40vh
+    }
+
 }
 
 /* hardware courses page */
@@ -364,7 +368,7 @@ p {
 .tutorial-hero {
     margin: 15px 0 30px;
     height: 60vh;
-    background-image: url(../images/tutorial-hero-2.png);
+    background-image: url(../images/tutorials-hero.webp);
     background-position: center;
     position: relative;
     background-size: cover;
