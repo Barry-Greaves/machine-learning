@@ -996,6 +996,17 @@ p {
 
     .about-grid {
         grid-template-columns: 1fr;
+        margin-bottom: 30px;
+    }
+
+    .hero-image {
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+
+    .about-section p {
+        margin-top: 20px;
+        margin-bottom: 0;
     }
 
     .side-image {
@@ -1013,7 +1024,18 @@ p {
     .latest-course-info {
         margin-bottom: 30px;
     }
+
+    .rytm-tutorial-image {
+        height: 450px;
 }
+
+    .prophet-tutorial-image {
+        height: 450px;
+    }
+
+    .tutorial-description p {
+        display: none;
+    }
 
     /* footer responsive styling */
 
