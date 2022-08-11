@@ -112,4 +112,22 @@ The main section of the page is split in two using a flex box with a ratio of 3:
 
 ![courseslayout](https://user-images.githubusercontent.com/107034179/184042511-71d6f1cc-0588-401a-983b-038a27d2c5df.png)
 
+<hr>
+
+### About Page
+
+The about page contains a run down of Machine Learning including details of how and when the company started, information on the types of courses offered on the website and a link to the contact section.
+
+<img width="1227" alt="About Section" src="https://user-images.githubusercontent.com/107034179/184044139-6005f608-3c6a-4d4a-b461-6da2fdc0bf49.png">
+
+<hr>
+
+### Contact Page
+
+The contact allows users to sign up to any of the courses available on the website or get in touch if they have any questions about the content available.
+The form allows users to submit their name, email address, phone number and select which course they are interested in. 
+
+
+<img width="1366" alt="Contactpage" src="https://user-images.githubusercontent.com/107034179/184044436-308aa562-6c56-4a69-8f97-f98a60e50870.png">
+
 
