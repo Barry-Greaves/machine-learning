@@ -32,7 +32,7 @@ Using responsive CSS styling, the list items disappear when the screen reaches 9
 
 ### Footer
 
-The footer appears at the bottom of all paages (apart from thankyou.html) and contains the Machine Learning logo positioned on the left alongside links to the contact, about and privacy pages. There are icons which link to social media platforms positioned on the right. 
+The footer appears at the bottom of all pages (apart from thankyou.html) and contains the Machine Learning logo positioned on the left alongside links to the contact, about and privacy pages. There are icons which link to social media platforms positioned on the right. 
 
 ![footer](https://user-images.githubusercontent.com/107034179/184015786-6a9187a2-2f2c-4f53-840b-dddb5708ccd3.jpg)
 
