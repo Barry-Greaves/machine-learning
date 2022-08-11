@@ -20,7 +20,7 @@ The website was created using HTML and CSS.
 
 ### Header 
 
-The header section appears on all pages of the website (apart from thankyou.html) and contains the Machine Learning logo positioned on the right and a nav menu with links to each part of the website on the left. The links in the nav menu change color to indicate to the user which section of the website they are currently browsing.
+The header section appears on all pages of the website (apart from thankyou.html) and contains the Machine Learning logo positioned on the left and a nav menu with links to each part of the website on the right. The links in the nav menu change color to indicate to the user which section of the website they are currently browsing.
 
 ![header3](https://user-images.githubusercontent.com/107034179/184014417-94409fa9-6de8-4df5-9692-6b7f8ac3c600.jpg)
 
@@ -58,18 +58,58 @@ The about section contains essential information about Machine Learning, and wha
 
 ![about](https://user-images.githubusercontent.com/107034179/184018584-548cb99b-5608-491b-a0fa-053166e06fdc.jpg)
 
-#### Latest tutorials section
+#### Latest Tutorials Section
 
 To engage potential customers as soon as they land on the site, it was important to include links to the Machine Learning content on the home page. The latest tutorials section was chosen to appear first as this is free content and can be used to entice customers to other sections of the website. The tutorials section containts two more images which span the widht of the page, containing a tutorial title and brief description. 
 
 ![tutorials2](https://user-images.githubusercontent.com/107034179/184019256-46201aa3-3675-40e6-ad6f-6d4931237500.jpg)
 
-#### Latest courses section
+#### Latest Courses Section
 
 Finally, the latest courses section gives customers a look at the paid content offered on the website. It was constructed with CSS grid and displays an image and description of 3 courses. 
 
 ![courses](https://user-images.githubusercontent.com/107034179/184019533-744568f6-1170-4f43-987e-d50727c9c8ba.jpg)
 
 <hr>
+
+### Courses Pages
+
+Both of the courses pages, hardware and software are structed in the same way. The are split into three sections, the hero image, info section and courses section.
+
+#### Hero Image
+
+The courses page hero image spans the width of the website with a height of 60vh. The hero images contain overlay text with a header displaying the page name and a prompt underneath which links users to the contact page where they can sign up to a course. 
+
+<img width="1423" alt="hardwarehero" src="https://user-images.githubusercontent.com/107034179/184038982-0a4974c7-9914-4708-8bd4-521773f3244f.png">
+
+#### Info Section 
+
+The info section contains details about all of the courses available through Machine Learning. It also contains an offer of a 7 day free trial and another link to the contact page where users can sign up to a course. 
+
+<img width="1167" alt="coursesabout" src="https://user-images.githubusercontent.com/107034179/184039743-ac2adfdc-8ace-4339-9001-fc4b8cd4ad51.png">
+
+#### Courses Section
+
+The courses section uses the same code and layout structure as used on the home page. Three different courses are layed out using CSS grid, with an image displaying over the course description. Both the image and the description are linked the relevant course page. 
+
+<img width="1421" alt="coursesgrid" src="https://user-images.githubusercontent.com/107034179/184040112-bfe47285-05b5-4fa2-b99c-7287e8641e10.png">
+
+<hr>
+
+### Course Info Pages
+
+Each of the course info pages are layed out in the same way. They are split into 3 sections. First there is a hero image, beneath that there is a course info section and course offers section next to each other. This was created using a combination of flex boxes and CSS grid. 
+
+#### Hero Image
+
+Each of the hero images used displays the machine that is being taught in the course. For the hardware courses I layered png images of the machines being used over backgrounds created in photoshop which use the Machine Learning color scheme and stlying. There is text overlaying the hero images with a header displaying the course type and name. 
+
+<img width="1421" alt="courseshero" src="https://user-images.githubusercontent.com/107034179/184040998-f189412d-f82b-4775-9718-4c19d72b949d.png">
+
+#### Course Info & Offer Section
+
+The main section of the page is split in two using a flex box with a ratio of 3:1. The left section then contains grids on top of divs to display the course info and the right section displays the different pricing options for each of the courses on offer. 
+
+![courseslayout](https://user-images.githubusercontent.com/107034179/184042511-71d6f1cc-0588-401a-983b-038a27d2c5df.png)
 
 
