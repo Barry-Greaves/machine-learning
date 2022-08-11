@@ -33,6 +33,7 @@ li {
 
 p {
     font-family: 'Roboto Mono', sans-serif;
+    color: #4f4f4f;
 }
 
 /* desktop-header */
@@ -135,9 +136,6 @@ p {
     height: 50px;
 }
 
-.left-footer p {
-    font-family: 'Roboto Mono', sans-serif;
-}
 
 .social-networks {
     display: flex;
@@ -203,7 +201,6 @@ p {
 
 .about-section p {
     margin: 30px 0;
-    color: #767676;
 }
 
 /* latest tutorials section */
@@ -254,8 +251,7 @@ p {
 }
 
 .tutorial-description p {
-    color: white;
-    font-family: 'Roboto Mono', sans-serif;     
+    color: white;    
     margin-top: 5px; 
 }
 
@@ -309,7 +305,6 @@ p {
 }
 
 .latest-course-container p {
-    font-family: 'Roboto Mono', sans-serif;
     font-size: 1rem;
     padding: 7px 10px 15px;
 }
@@ -458,11 +453,6 @@ p {
     color: #fef8ec
 }
 
-
-.tutorial-container p {
-    font-family: 'Roboto Mono', sans-serif;
-}
-
 .tutorial-container {
     margin: 0 auto;
     max-width: 900px;
@@ -531,7 +521,6 @@ p {
     font-weight: 400;
     font-size: 1rem;
     color: #8f5d8e;
-    font-family: 'Roboto Mono', sans-serif;
 }
 
 #right-contact {
@@ -539,7 +528,6 @@ p {
 }
 
 #right-contact p {
-    font-family: 'Roboto Mono', sans-serif;
     margin-bottom: 15px;
 }
 
@@ -747,12 +735,7 @@ p {
 .course-blurb {
     padding-right: 30px;
 }
-
-.course-blurb p {
-    font-family: 'Roboto Mono', sans-serif;
-    font-size: 1rem;
-}
-
+x
 .course-overview {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -768,7 +751,6 @@ p {
 }
 
 .course-info p {
-    font-size: 1rem;
     margin-top: 10px;
 }
 
@@ -893,7 +875,6 @@ p {
 }
 
 #privacy-content p {
-    font-family: 'Roboto Mono', sans-serif;
     margin: 15px 0 30px;
 }
 
