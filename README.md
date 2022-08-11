@@ -114,6 +114,24 @@ The main section of the page is split in two using a flex box with a ratio of 3:
 
 <hr>
 
+### Tutorials Page
+
+Each of the tutorials pages is split into two sections. The pages contain a hero image and the tutorial itself below. 
+
+#### Tutorial Hero
+
+The hero images used for each tutorial page displays the machine that is being used for the tutorial. The images were created by layering png images of the machines over backgrounds created in photoshop that use the Machine Learning color scheme and stlying. There is text overlaying the hero images with a header displaying the tutorial name and brief description underneath.
+
+<img width="1428" alt="Tutorial-Hero" src="https://user-images.githubusercontent.com/107034179/184046549-dea5d32d-7c60-4305-8d94-71fb183aa1c5.png">
+
+#### Tutorial Section
+
+The turorial section is where users learn tips and tricks for creating electronic music for free. The tutorials use a combination of images a easy to follow intructions. 
+
+<img width="1428" alt="Tutorial" src="https://user-images.githubusercontent.com/107034179/184047053-3b04e9b7-1f4c-4827-836a-1bddd12bebd4.png">
+
+<hr>
+
 ### About Page
 
 The about page contains a run down of Machine Learning including details of how and when the company started, information on the types of courses offered on the website and a link to the contact section.
@@ -129,5 +147,15 @@ The form allows users to submit their name, email address, phone number and sele
 
 
 <img width="1366" alt="Contactpage" src="https://user-images.githubusercontent.com/107034179/184044436-308aa562-6c56-4a69-8f97-f98a60e50870.png">
+
+<hr>
+
+### Privacy Page
+
+The privacy page provides information on Machine Learnings' privacy policy. The user can see what information is stored and they are given assurances that it will not be shared with a third party. The page also gives information on cookies and whether they are in use on the website. 
+
+<img width="1000" alt="privacy-page" src="https://user-images.githubusercontent.com/107034179/184046313-1ec4cf4c-e4ca-4ae4-8d8e-7129a624be13.png">
+
+<hr>
 
 
