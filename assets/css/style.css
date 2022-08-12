@@ -207,7 +207,7 @@ p {
 
 .rytm-tutorial-image {
     margin-bottom:  40px;
-    height: 600px;
+    height: 50vh;
     background-color: #767676;
     background-image: url(../images/rytm-hero.webp);
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ p {
 
 .prophet-tutorial-image {
     margin: 30px 0 50px;
-    height: 600px;
+    height: 50vh;
     background-color: rgba(21, 21, 21, 0.7);
     background-image: url(../images/prohet-hero.webp);
     background-repeat: no-repeat;
@@ -230,9 +230,7 @@ p {
 }
 
 .tutorial-description {
-    width: 75%;
     background-color: rgba(21, 21, 21, 0.7);
-    padding: 10px 10px 15px;
     position: absolute;
     bottom: 0;
 }
@@ -242,17 +240,22 @@ p {
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
+    line-height: 100%;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 
 .tutorial-description h3 {
     color: white;
     font-weight: 200;
     font-size: 1.5rem; 
+    padding-left: 5px;
 }
 
 .tutorial-description p {
-    color: white;    
-    margin-top: 5px; 
+    color: white;   
+    background-color: #8f5d8e;
+    padding: 5px;
 }
 
 /* latest courses section */
@@ -1107,11 +1110,11 @@ p {
     }
 
     .rytm-tutorial-image {
-        height: 450px;
+        height: 40vh;
     }
 
     .prophet-tutorial-image {
-        height: 450px;
+        height: 40vh;
     }
 
     .tutorial-description p {
