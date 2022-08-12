@@ -207,7 +207,7 @@ p {
 
 .rytm-tutorial-image {
     margin-bottom:  40px;
-    height: 400px;
+    height: 50vh;
     background-color: #767676;
     background-image: url(../images/rytm-hero.webp);
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ p {
 
 .prophet-tutorial-image {
     margin: 30px 0 50px;
-    height: 400px;
+    height: 50vh;
     background-color: rgba(21, 21, 21, 0.7);
     background-image: url(../images/prohet-hero.webp);
     background-repeat: no-repeat;
@@ -682,12 +682,11 @@ p {
 
 .course-title {
     background-color: rgba(21, 21, 21, 0.7);
-    padding: 0 10px 10px 15px;
     position: absolute;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     bottom: 0;
-    padding-right: 50px;
+    width: 100%;
 }
 
 
@@ -697,6 +696,8 @@ p {
     font-weight: 400;
     text-transform: uppercase;
     line-height: 50px;
+    padding: 10px 20px;
+    margin-bottom: 5px;
 }
 
 .course-title h3 {
@@ -704,8 +705,9 @@ p {
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    padding-top: 10px;
+    padding: 2px 20px;
     margin-bottom: 5px;
+    background-color: #8f5d8e;
 }
 
 .course-page-container {
@@ -960,27 +962,33 @@ p {
     }
 
     .ableton-hero {
-        margin: 15px 0 30px;    
+        margin: 15px 0 30px;  
+        height: 30vh;  
     }
 
     .wavetable-hero {
         margin: 15px 0 30px; 
+        height: 30vh;
     }
 
     .mixing-hero {
         margin: 15px 0 30px; 
+        height: 30vh;
     }
 
     .rytm-hero {
         margin: 15px 0 30px;
+        height: 30vh;
     }
 
     .octatrack-hero {
         margin: 15px 0 30px;
+        height: 30vh;
     }
 
     .machines-hero {
         margin: 15px 0 30px;
+        height: 30vh;
     }
 
     .course-title h1 {
