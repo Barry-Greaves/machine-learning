@@ -207,7 +207,7 @@ p {
 
 .rytm-tutorial-image {
     margin-bottom:  40px;
-    height: 50vh;
+    height: 400px;
     background-color: #767676;
     background-image: url(../images/rytm-hero.webp);
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ p {
 
 .prophet-tutorial-image {
     margin: 30px 0 50px;
-    height: 50vh;
+    height: 400px;
     background-color: rgba(21, 21, 21, 0.7);
     background-image: url(../images/prohet-hero.webp);
     background-repeat: no-repeat;
@@ -451,13 +451,15 @@ p {
     color: white;
     font-size: 1.5rem;
     text-transform: none;
+    padding: 0 5px;
 }
 
 .tutorial-description h1 {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 2rem;
-    color: #fef8ec
+    color: #fef8ec;
+    padding: 0 5px;
 }
 
 .tutorial-container {
@@ -615,7 +617,7 @@ p {
 .ableton-hero {
     margin: 15px 0 60px;
     height: 50vh;
-    background-image: url(../images/ableton-hero.png);
+    background-image: url(../images/ableton-hero.webp);
     background-position: center;
     position: relative;
     background-size: cover;
@@ -626,7 +628,7 @@ p {
 .wavetable-hero {
     margin: 15px 0 60px;
     height: 50vh;
-    background-image: url(../images/wavetable-hero.png);
+    background-image: url(../images/wavetable-hero.webp);
     background-position: center;
     position: relative;
     background-size: cover;
@@ -637,7 +639,7 @@ p {
 .mixing-hero {
     margin: 15px 0 60px;
     height: 50vh;
-    background-image: url(../images/mixing-hero.png);
+    background-image: url(../images/mixing-hero.webp);
     background-position: center;
     position: relative;
     background-size: cover;
@@ -648,7 +650,7 @@ p {
 .rytm-hero {
     margin: 15px 0 60px;
     height: 50vh;
-    background-image: url(../images/rytm-course-hero.png);
+    background-image: url(../images/rytm-course-hero.webp);
     background-position: center;
     position: relative;
     background-size: cover;
@@ -659,7 +661,7 @@ p {
 .octatrack-hero {
     margin: 15px 0 60px;
     height: 50vh;
-    background-image: url(../images/octatrack-course-hero.png);
+    background-image: url(../images/octatrack-course-hero.webp);
     background-position: center;
     position: relative;
     background-size: cover;
@@ -670,7 +672,7 @@ p {
 .machines-hero {
     margin: 15px 0 60px;
     height: 50vh;
-    background-image: url(../images/machines-hero.png);
+    background-image: url(../images/machines-hero.webp);
     background-position: center;
     position: relative;
     background-size: cover;
