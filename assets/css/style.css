@@ -70,7 +70,7 @@ p {
     border-bottom: 2px solid #8f5d8e;
 }  
 
-    /* mobile-nav */
+/* mobile-nav */
 
 .mobile-menu li {
     text-align: center;
@@ -108,7 +108,6 @@ p {
 .mobile-checkbox:checked ~ ul.mobile-menu li{
     display:block;
 }
-
 
 /* footer section */
 
@@ -149,7 +148,7 @@ p {
     margin-left: 1rem;
 }
 
-/* hero image section */
+/* index page */
 
 .hero-image {
     margin: 15px 0 60px;
@@ -161,16 +160,15 @@ p {
     border-radius: 5px; 
 }
 
-
 .section-title {
     margin-bottom: 15px;   
     }
 
-    .section-title h2 {
-        font-size: 2.5rem;
-        color: #8f5d8e;
-        font-weight: 400;
-    }
+.section-title h2 {
+    font-size: 2.5rem;
+    color: #8f5d8e;
+    font-weight: 400;
+}
 
 /* about section */
 
@@ -280,7 +278,6 @@ p {
     border-radius: 5px;    
 }
 
-
 .latest-course-info:hover {
     background-color: #4f4f4f;
     color: #fef8ec;
@@ -315,7 +312,6 @@ p {
     font-size: 1rem;
     padding: 7px 10px 15px;
 }
-
 
 /* software courses page */
 
@@ -689,15 +685,14 @@ p {
     width: 100%;
 }
 
-
 .course-title h1 {
     font-size: 3.5rem;
     color: #fef8ec;
     font-weight: 400;
     text-transform: uppercase;
-    line-height: 50px;
-    padding: 10px 20px;
     margin-bottom: 5px;
+    line-height: 100%;
+    padding: 0 10px;
 }
 
 .course-title h3 {
@@ -770,7 +765,6 @@ p {
     text-transform: uppercase;
     font-weight: 400;
     color: #8f5d8e;
-
 }
 
 .course-content-grid {
@@ -847,8 +841,6 @@ p {
     margin-top: 15px;
 }
 
-
-
 .module-list li {
     font-family: 'Roboto Mono', sans-serif;
     list-style-type: circle;
@@ -863,12 +855,6 @@ p {
 
 .offer-list {
     margin-bottom: 10px;
-}
-
-
-@media only screen and (max-width:900px) {
-    
- 
 }
 
 /* privacy page*/
@@ -895,8 +881,6 @@ p {
 
 /* about page*/ 
 
-/* privacy page*/
-
 #about-container {
     max-width: 800px;
     margin: 0 auto;
@@ -918,7 +902,6 @@ p {
 }
 
 /* courses info page responsive styling */
-
 
 @media only screen and (max-width:900px) {
     
@@ -946,13 +929,6 @@ p {
 
     .course-content-grid {
         margin-bottom: 30px;
-    }
-
-   
-
-    .course-title h1 {
-        font-size: 2.5rem;
-        line-height: 30px;
     }
 
     .course-title h3 {
@@ -994,6 +970,7 @@ p {
     .course-title h1 {
         font-size: 2.5rem;
         line-height: 30px;
+        padding: 5px 10px;
     }
 
     .course-title h3 {
@@ -1024,6 +1001,13 @@ p {
     margin-top: 30px;
 }
 
+}
+
+@media only screen and (max-width:500px) {
+    .course-title h1 {
+        font-size: 2rem;
+        padding: 2px 10px;
+    }
 }
 
 
@@ -1070,9 +1054,6 @@ p {
     #contact-container {
         padding-top: 15px;
     }
-
-   
-
 }
 
 /* header responsive styling */
@@ -1087,6 +1068,53 @@ p {
     .menu-nav {
         display: none;
     }
+}
+
+/* footer responsive styling */
+
+@media only screen and (max-width:900px){
+    
+    .footer {
+        flex-direction: column;
+        margin-bottom: 30px;
+        height: 200px;
+    }
+
+    .left-footer {
+        margin: 0 auto;
+    }
+
+    .left-footer p {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .right-footer {
+        margin: 1rem 0;
+    }
+
+    .right-footer a {
+        font-size: 1.5rem;
+    }
+
+    .middle-footer {
+    margin: 1rem auto 0;
+    }
+
+    .middle-footer li {
+    float: left;
+    padding: 0 1rem;
+    font-size: .8rem;
+    }
+
+    .social-networks {
+    justify-content: center;
+    }
+}
+
+/* index page responsive stlying*/
+
+@media only screen and (max-width:900px){
 
     .about-grid {
         grid-template-columns: 1fr;
@@ -1101,6 +1129,7 @@ p {
     .about-section p {
         margin-top: 20px;
         margin-bottom: 0;
+        padding-right: 0;
     }
 
     .side-image {
@@ -1146,51 +1175,7 @@ p {
         font-size: 2rem;
     }
 }
-
-
-
-    /* footer responsive styling */
-
-    @media only screen and (max-width:900px){
     
-    .footer {
-        flex-direction: column;
-        margin-bottom: 30px;
-        height: 200px;
-    }
-
-    .left-footer {
-        margin: 0 auto;
-    }
-
-    .left-footer p {
-        margin-top: 1rem;
-        text-align: center;
-    }
-
-    .right-footer {
-        margin: 1rem 0;
-    }
-
-    .right-footer a {
-        font-size: 1.5rem;
-    }
-
-    .middle-footer {
-    margin: 1rem auto 0;
-    }
-
-    .middle-footer li {
-    float: left;
-    padding: 0 1rem;
-    font-size: .8rem;
-    }
-
-    .social-networks {
-    justify-content: center;
-    }
-}
-
 /*general responsive styling*/
 
 @media only screen and (max-width:900px) {
@@ -1201,13 +1186,4 @@ p {
     body {
         margin: 0 15px;
     }
-
-    .about-section p {
-        padding-right: 0;
-        }
 }
-
-
-
-
-
