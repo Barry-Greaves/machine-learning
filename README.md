@@ -1,4 +1,4 @@
-<img src="https://barry-greaves.github.io/machine-learning/assets/images/Logo1.png" width="300">
+![ml-logo](https://user-images.githubusercontent.com/107034179/185223287-482e20e8-79f6-47e5-b98f-11dae908e9c3.png)
 
 # Machine Learning - Project 1
 
