@@ -158,7 +158,23 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px; 
-    position: relative;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-start;  
+}
+
+.hero-info {
+    background-color: rgba(143, 93, 142, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.hero-logo {
+    width: 100%;
 }
 
 .section-title {
