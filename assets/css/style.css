@@ -36,6 +36,18 @@ p {
     color: #4f4f4f;
 }
 
+/*general responsive styling*/
+
+@media only screen and (max-width:900px) {
+    .header-logo {
+        height: 40px;
+    }
+
+    body {
+        margin: 0 15px;
+    }
+}
+
 /* desktop-header */
 
 .header {
@@ -109,6 +121,20 @@ p {
     display:block;
 }
 
+/* header responsive styling */
+
+@media only screen and (min-width:900px){
+    .nav-toggle {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .menu-nav {
+        display: none;
+    }
+}
+
 /* footer section */
 
 .footer {
@@ -148,11 +174,53 @@ p {
     margin-left: 1rem;
 }
 
+/* footer responsive styling */
+
+@media only screen and (max-width:900px){
+    
+    .footer {
+        flex-direction: column;
+        margin-bottom: 30px;
+        height: 200px;
+    }
+
+    .left-footer {
+        margin: 0 auto;
+    }
+
+    .left-footer p {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .right-footer {
+        margin: 1rem 0;
+    }
+
+    .right-footer a {
+        font-size: 1.5rem;
+    }
+
+    .middle-footer {
+    margin: 1rem auto 0;
+    }
+
+    .middle-footer li {
+    float: left;
+    padding: 0 1rem;
+    font-size: .8rem;
+    }
+
+    .social-networks {
+    justify-content: center;
+    }
+}
+
 /* index page */
 
 .hero-image {
     margin: 15px 0 60px;
-    height: 70vh;
+    height: 85vh;
     background-image: url(../images/machine-learning-hero.webp);
     background-position: center;
     background-size: cover;
@@ -330,6 +398,79 @@ p {
     padding: 7px 10px 15px;
 }
 
+/* index page responsive stlying*/
+
+@media only screen and (max-width:1200px){
+    .hero-image {
+        height: 65vh;
+    }
+}
+
+@media only screen and (max-width:900px){
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        margin-bottom: 30px;
+    }
+
+    .hero-image {
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+
+    .hero-info {
+        padding: 7px 10px 0px;
+    }
+
+    .about-section p {
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding-right: 0;
+    }
+
+    .side-image {
+        display:none;
+    }
+
+    .about-section {
+        padding-right: 0;
+    }
+
+    .latest-courses-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .latest-course-info {
+        margin-bottom: 30px;
+    }
+
+    .rytm-tutorial-image {
+        height: 40vh;
+    }
+
+    .prophet-tutorial-image {
+        height: 40vh;
+    }
+
+    .tutorial-description p {
+        display: none;
+    }
+
+    .about-section h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .hero-image {
+        height: 40vh;
+    }
+
+    .about-section h1 {
+        font-size: 2rem;
+    }
+}
+
 /* software courses page */
 
 .software-hero {
@@ -354,6 +495,29 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;  
+}
+
+
+/*courses pages responsive styling */
+
+@media only screen and (max-width:900px) {
+    
+    .software-hero {
+        height: 40vh;
+    }
+
+    .hardware-hero {
+        height: 40vh;
+    }
+
+    .page-offer {
+        display: none;
+    }
+
+    .tutorials-hero {
+        height: 40vh
+    }
+
 }
 
 /* tutorials pages */
@@ -476,131 +640,6 @@ p {
     border-radius: 5px;
     width: 100%;
     margin-bottom: 30px;
-}
-
-/* contact page */
-
-#contact-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 60px 0 30px;
-}
-
-#left-contact {
-    flex: 1;
-}
-
-#form-container {
-    width: 100%;
-    flex: 2;
-}
-
-.sign-up-form {
-    max-width: 600px;
-    padding: 20px 40px 40px;
-    margin: 0 auto;
-}
-
-#left-contact h1 {
-    font-weight: 400;
-    font-size: 2rem;
-    text-transform: uppercase;
-    color: #8f5d8e;
-}
-
-#left-contact h2 {
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: #767676;
-    margin-bottom: 40px;
-}
-
-#left-contact p {
-    margin-bottom: 15px;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #8f5d8e;
-}
-
-#right-contact {
-    flex: 1;
-}
-
-#right-contact p {
-    margin-bottom: 15px;
-}
-
-#right-contact h3 {
-    font-weight: 400;
-    color: #8f5d8e;
-    font-size: 2rem;
-    margin-bottom: 0;
-}
-
-.submit-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    border: 1px solid #8f5d8e;
-    border-radius: 2px;
-    background-color: #fef8ec;
-    color: #8f5d8e;
-    display: block;
-}
-
-.text-input {
-    width: 100%;
-    height: 30px;
-    margin: 5px 0 20px;
-    border-radius: 2px;
-    border: 1px solid #8f5d8e;
-    border-radius: 2px;
-    background-color: #fef8ec;
-    color: #4f4f4f;
-    font-size: 1rem;
-    font-family: 'Roboto Mono', sans-serif;
-}
-
-#courses-dropdown {
-    width: 100%;
-    height: 30px;
-    margin: 5px 0 20px;
-    border-radius: 2px;
-    border: 1px solid #8f5d8e;
-    border-radius: 2px;
-    background-color: #fef8ec;
-    color: #4f4f4f;
-    font-size: 1rem;
-    font-family: 'Roboto Mono', sans-serif;
-}
-
-#courses-dropdown option {
-    color: #4f4f4f;
-    font-size: 1rem;
-    font-family: 'Roboto Mono', sans-serif;
-}
-
-
-.message-input {
-    width: 100%;
-    height: 150px;
-    margin: 5px 0;
-    border-radius: 2px;
-    border: 1px solid #8f5d8e;
-    border-radius: 2px;
-    background-color: #fef8ec;
-    color: #4f4f4f;
-    font-size: 1rem;
-    font-family: 'Roboto Mono', sans-serif;
-}
-
-.form-label {
-    font-size: 1.5rem;
 }
 
 /* course info page */
@@ -852,78 +891,6 @@ p {
     margin-bottom: 10px;
 }
 
-/* privacy page*/
-
-#privacy-container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-#privacy-content {
-    margin: 60px 0;
-}
-
-#privacy-content h1, h2 {
-    font-size: 2.5rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #8f5d8e;
-}
-
-#privacy-content p {
-    margin: 15px 0 30px;
-}
-
-/* about page*/ 
-
-#about-container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-#about-content {
-    margin: 60px 0;
-}
-
-#about-content h1 {
-    font-size: 2.5rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #8f5d8e;
-}
-
-#about-content p {
-    margin: 30px 0 30px;
-}
-
-/* thank you page */
-
-#thankyou-container {
-    height: 80vh;
-    display: flex;
-    align-items: center;
- }
- 
- #thankyou-message {
-     max-width: 1000px;
-     margin: 0 auto;
-     text-align: center;
- }
- 
- #thankyou-message h1 {
-     font-size: 6rem;
-     text-transform: uppercase;
-     font-weight: 400;
-     color: #8f5d8e;
- }
- 
- #thankyou-message h2 {
-     color: #8f5d8e;
-     font-size: 2.2rem;
-     text-transform: uppercase;
-     font-weight: 400;
- }
-
 /* courses info page responsive styling */
 
 @media only screen and (max-width:900px) {
@@ -1033,6 +1000,131 @@ p {
     }
 }
 
+/* contact page */
+
+#contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px 0 30px;
+}
+
+#left-contact {
+    flex: 1;
+}
+
+#form-container {
+    width: 100%;
+    flex: 2;
+}
+
+.sign-up-form {
+    max-width: 600px;
+    padding: 20px 40px 40px;
+    margin: 0 auto;
+}
+
+#left-contact h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #8f5d8e;
+}
+
+#left-contact h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #767676;
+    margin-bottom: 40px;
+}
+
+#left-contact p {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #8f5d8e;
+}
+
+#right-contact {
+    flex: 1;
+}
+
+#right-contact p {
+    margin-bottom: 15px;
+}
+
+#right-contact h3 {
+    font-weight: 400;
+    color: #8f5d8e;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #8f5d8e;
+    border-radius: 2px;
+    background-color: #fef8ec;
+    color: #8f5d8e;
+    display: block;
+}
+
+.text-input {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 20px;
+    border-radius: 2px;
+    border: 1px solid #8f5d8e;
+    border-radius: 2px;
+    background-color: #fef8ec;
+    color: #4f4f4f;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+#courses-dropdown {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 20px;
+    border-radius: 2px;
+    border: 1px solid #8f5d8e;
+    border-radius: 2px;
+    background-color: #fef8ec;
+    color: #4f4f4f;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+#courses-dropdown option {
+    color: #4f4f4f;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+
+.message-input {
+    width: 100%;
+    height: 150px;
+    margin: 5px 0;
+    border-radius: 2px;
+    border: 1px solid #8f5d8e;
+    border-radius: 2px;
+    background-color: #fef8ec;
+    color: #4f4f4f;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.form-label {
+    font-size: 1.5rem;
+}
+
 /* contact page responsive stlying */
 
 @media only screen and (max-width:900px){
@@ -1049,166 +1141,75 @@ p {
     }
 }
 
-/* header responsive styling */
+/* privacy page*/
 
-@media only screen and (min-width:900px){
-    .nav-toggle {
-        display: none;
-    }
+#privacy-container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-@media only screen and (max-width:900px){
-    .menu-nav {
-        display: none;
-    }
+#privacy-content {
+    margin: 60px 0;
 }
 
-/* footer responsive styling */
-
-@media only screen and (max-width:900px){
-    
-    .footer {
-        flex-direction: column;
-        margin-bottom: 30px;
-        height: 200px;
-    }
-
-    .left-footer {
-        margin: 0 auto;
-    }
-
-    .left-footer p {
-        margin-top: 1rem;
-        text-align: center;
-    }
-
-    .right-footer {
-        margin: 1rem 0;
-    }
-
-    .right-footer a {
-        font-size: 1.5rem;
-    }
-
-    .middle-footer {
-    margin: 1rem auto 0;
-    }
-
-    .middle-footer li {
-    float: left;
-    padding: 0 1rem;
-    font-size: .8rem;
-    }
-
-    .social-networks {
-    justify-content: center;
-    }
+#privacy-content h1, h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #8f5d8e;
 }
 
-/*courses pages responsive styling */
-
-@media only screen and (max-width:900px) {
-    
-    .software-hero {
-        height: 40vh;
-    }
-
-    .hardware-hero {
-        height: 40vh;
-    }
-
-    .page-offer {
-        display: none;
-    }
-
-    .tutorials-hero {
-        height: 40vh
-    }
-
+#privacy-content p {
+    margin: 15px 0 30px;
 }
 
-/* index page responsive stlying*/
+/* about page*/ 
 
-@media only screen and (max-width:1200px){
-    .hero-image {
-        height: 65vh;
-    }
+#about-container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-@media only screen and (max-width:900px){
-
-    .about-grid {
-        grid-template-columns: 1fr;
-        margin-bottom: 30px;
-    }
-
-    .hero-image {
-        height: 50vh;
-        margin-bottom: 20px;
-    }
-
-    .hero-info {
-        padding: 7px 10px 0px;
-    }
-
-    .about-section p {
-        margin-top: 20px;
-        margin-bottom: 0;
-        padding-right: 0;
-    }
-
-    .side-image {
-        display:none;
-    }
-
-    .about-section {
-        padding-right: 0;
-    }
-
-    .latest-courses-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .latest-course-info {
-        margin-bottom: 30px;
-    }
-
-    .rytm-tutorial-image {
-        height: 40vh;
-    }
-
-    .prophet-tutorial-image {
-        height: 40vh;
-    }
-
-    .tutorial-description p {
-        display: none;
-    }
-
-    .about-section h1 {
-        font-size: 2.5rem;
-    }
-
+#about-content {
+    margin: 60px 0;
 }
 
-@media only screen and (max-width:700px){
-    .hero-image {
-        height: 30vh;
-    }
-
-    .about-section h1 {
-        font-size: 2rem;
-    }
+#about-content h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #8f5d8e;
 }
-    
-/*general responsive styling*/
 
-@media only screen and (max-width:900px) {
-    .header-logo {
-        height: 40px;
-    }
-
-    body {
-        margin: 0 15px;
-    }
+#about-content p {
+    margin: 30px 0 30px;
 }
+
+/* thank you page */
+
+#thankyou-container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+ }
+ 
+ #thankyou-message {
+     max-width: 1000px;
+     margin: 0 auto;
+     text-align: center;
+ }
+ 
+ #thankyou-message h1 {
+     font-size: 6rem;
+     text-transform: uppercase;
+     font-weight: 400;
+     color: #8f5d8e;
+ }
+ 
+ #thankyou-message h2 {
+     color: #8f5d8e;
+     font-size: 2.2rem;
+     text-transform: uppercase;
+     font-weight: 400;
+ }
+
