@@ -12,7 +12,7 @@ The website was created using HTML and CSS.
 <br>
 <br>
 
-![page-layout](https://user-images.githubusercontent.com/107034179/183979288-29b5ca3f-c45e-4d69-aa3b-b609b7dcfd6a.png)
+![machinelearning layouts](https://user-images.githubusercontent.com/107034179/185805565-10ba1a75-eabf-4a89-8ecb-fea2baa7bc03.png)
 
 <hr>
 
@@ -50,19 +50,19 @@ This is the first page users will see when they enter the website and needs to s
 
 The hero image covers the width of the page and is coded to be 70vh in height. It contains an visually striking studio set up overlayed with the Machine Learning logo and color scheme. 
 
-![homehero](https://user-images.githubusercontent.com/107034179/184017969-4819db13-11da-4e17-92a4-fdad49f490ab.jpg)
+![hero-index](https://user-images.githubusercontent.com/107034179/185805639-9e550054-b170-4082-b6e6-92089b3e6d54.png)
 
 #### About Section
 
 The about section contains essential information about Machine Learning, and what they offer to customers. It also contains links to relevant sections on the website. 
 
-![about](https://user-images.githubusercontent.com/107034179/184018584-548cb99b-5608-491b-a0fa-053166e06fdc.jpg)
+![about-section](https://user-images.githubusercontent.com/107034179/185805689-5f1d8f7a-c76e-44ca-b3c3-8e59c6a74609.png)
 
 #### Latest Tutorials Section
 
 To engage potential customers as soon as they land on the site, it was important to include links to the Machine Learning content on the home page. The latest tutorials section was chosen to appear first as this is free content and can be used to entice customers to other sections of the website. The tutorials section containts two more images which span the widht of the page, containing a tutorial title and brief description. 
 
-![tutorials2](https://user-images.githubusercontent.com/107034179/184019256-46201aa3-3675-40e6-ad6f-6d4931237500.jpg)
+![tutoritals section](https://user-images.githubusercontent.com/107034179/185805881-25a7d19e-1a61-4a2d-87b0-918f0a6baf4e.png)
 
 #### Latest Courses Section
 
@@ -74,13 +74,13 @@ Finally, the latest courses section gives customers a look at the paid content o
 
 ### Courses Pages
 
-Both of the courses pages, hardware and software are structed in the same way. The are split into three sections, the hero image, info section and courses section.
+Both of the courses pages, hardware and software, are structed in the same way. The are split into three sections, the hero image, info section and courses section.
 
 #### Hero Image
 
 The courses page hero image spans the width of the website with a height of 60vh. The hero images contain overlay text with a header displaying the page name and a prompt underneath which links users to the contact page where they can sign up to a course. 
 
-<img width="1423" alt="hardwarehero" src="https://user-images.githubusercontent.com/107034179/184038982-0a4974c7-9914-4708-8bd4-521773f3244f.png">
+![software-hero](https://user-images.githubusercontent.com/107034179/185806089-0af5740c-b8f7-4c78-8478-3ab6a22d2ef7.png)
 
 #### Info Section 
 
