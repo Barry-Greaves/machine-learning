@@ -164,17 +164,17 @@ p {
 }
 
 .hero-info {
-    background-color: rgba(143, 93, 142, 0.9);
-    padding: 10px;
+    background-color:#8f5d8e;
+    padding: 10px 20px 5px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 50%;
+    width: 100%;
 }
 
 .hero-logo {
-    width: 100%;
+    width: 50%;
 }
 
 .section-title {
@@ -1145,6 +1145,10 @@ p {
     .hero-image {
         height: 50vh;
         margin-bottom: 20px;
+    }
+
+    .hero-info {
+        padding: 7px 10px 0px;
     }
 
     .about-section p {
