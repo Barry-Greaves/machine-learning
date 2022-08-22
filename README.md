@@ -227,6 +227,20 @@ From there in the Source dropdown menu I clicked on "main", and then "Save", fro
 
 ## Content
 
+The the majority of the code used for the website is original and created using what I learned in the Code Institute HTML and CSS Modules. Any additional sources are outlined below. 
+
+### Supler Simple Dev - HTML & CSS Full Course https://youtu.be/G3e-cpL7ofc
+
+I used this resource to learn the principals of flexboxes and CSS grid which are used extensively throughout the website. 
+
+### Code with Ania Kubów - HTML Forms using Form Submit https://www.youtube.com/watch?v=r4RQ38EoLds
+
+I used this tutorial to learn how to create a working HTML form using only HTML & CSS linking it to the free Form Submit service.  
+
+### Angela Delise - Responsive Navigation Bar Only CSS | Mobile First Design https://www.youtube.com/watch?v=SIzi9z8mrTk
+
+I used this tutorial to learn how to create a responsive nav bar that switched to a burger icon when the screen narrows to a max width 900px. I used a modified version of the code for the live website, but the principal of creating a checkbox to control the burger icon was taken from this tutorial. 
+
 ## Media
 
 <hr>
