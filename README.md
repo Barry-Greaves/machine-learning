@@ -159,4 +159,33 @@ The privacy page provides information on Machine Learnings' privacy policy. The 
 
 <hr>
 
+## Features to Implement
+
+In fututre updates to the website, I would like to embed videos in each tutorial and course page so users have an clear vision of what the content looks like on the front end of the website. 
+
+
+<hr>
+
+# Testing
+
+The website was fully tested using W3C HTML and CSS validators. Each page was fully debugged and there are no errors on the final website. 
+
+I tested the performance of each page using Google Chrome's Lighthouse feature in the Dev Tools. The website scored 100% for Accesibility, SEO and Best Practices on all pages, but fell short on Performace with a score that varies between 98% and 99%. 
+
+
+![index-lighthouse](https://user-images.githubusercontent.com/107034179/186008888-ee5c755b-6afb-4f07-8d5b-a18885e4408d.jpg)
+
+![software-lighthouse](https://user-images.githubusercontent.com/107034179/186008886-cfc4fdfc-77e7-4fec-8de1-d475fa2a6534.jpg)
+
+![ableton-lighthouse](https://user-images.githubusercontent.com/107034179/186008885-44500170-e7ae-4685-a9b5-3631418365b9.jpg)
+
+![hardware-lighthouse](https://user-images.githubusercontent.com/107034179/186008883-41d9dc06-51b0-445b-87af-487523b211e3.jpg)
+
+![contact-lighthouse](https://user-images.githubusercontent.com/107034179/186008882-b993a62e-d8c8-4198-804a-d498468eb046.jpg)
+
+![privacy-lighthouse](https://user-images.githubusercontent.com/107034179/186008881-c689add2-e601-4893-8d39-d760c4960c1c.jpg)
+
+![tutorials-lighthouse](https://user-images.githubusercontent.com/107034179/186008879-e2bbf31e-d50f-41af-9144-e14fc19d3320.jpg)
+
+![rytmtutorial-lighthouse](https://user-images.githubusercontent.com/107034179/186008877-c30df268-b13a-4690-9d94-706750c13e17.jpg)
 
