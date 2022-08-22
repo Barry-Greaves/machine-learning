@@ -168,9 +168,19 @@ In fututre updates to the website, I would like to embed videos in each tutorial
 
 # Testing
 
-The website was fully tested using W3C HTML and CSS validators. Each page was fully debugged and there are no errors on the final website. 
+## HTML & CSS Validation
 
-I tested the performance of each page using Google Chrome's Lighthouse feature in the Dev Tools. The website scored 100% for Accesibility, SEO and Best Practices on all pages, but fell short on Performace with a score that varies between 98% and 99%. 
+The website was fully tested using W3C HTML and CSS validators. Each page was fully debugged and there are no errors on the final website. The results can be seen below
+
+![css-validator](https://user-images.githubusercontent.com/107034179/186013274-2e0276b8-f368-4033-a4ff-898cc0ef8812.jpg)
+![html-validator](https://user-images.githubusercontent.com/107034179/186013279-09ec97ea-e0c9-4ae1-bf90-8d9d5a79760c.jpg)
+usercontent.com/107034179/186008888-ee5c755b-6afb-4f07-8d5b-a18885e4408d.jpg)
+
+<hr>
+
+## Performance Testing
+
+I tested the performance of each page using Google Chrome's Lighthouse feature in the Dev Tools. The website scored 100% for Accesibility, SEO and Best Practices on all pages, but fell short on Performace with a score that varies between 98% and 99%. The results can be seen below. 
 
 
 ![index-lighthouse](https://user-images.githubusercontent.com/107034179/186008888-ee5c755b-6afb-4f07-8d5b-a18885e4408d.jpg)
@@ -188,4 +198,37 @@ I tested the performance of each page using Google Chrome's Lighthouse feature i
 ![tutorials-lighthouse](https://user-images.githubusercontent.com/107034179/186008879-e2bbf31e-d50f-41af-9144-e14fc19d3320.jpg)
 
 ![rytmtutorial-lighthouse](https://user-images.githubusercontent.com/107034179/186008877-c30df268-b13a-4690-9d94-706750c13e17.jpg)
+
+<hr>
+
+## Unfixed Bugs
+
+There were no remaining bugs at the time of deploymenet, each element on the website is functioning as it should be
+
+<hr>
+
+# Deployment
+
+I accessed the Code Institute template at [https://github.com/Code-Institute-Org/gitpod-full-template] and clicked on the "Use This Template" button.
+
+The next step was to give my repository a suitable name on Github, and create it thereafter.
+
+On the following page I clicked on the green Gitpod button, which is accessible having installed the Gitpod extension to Google Chrome browser.
+
+This created my development environment on Gitpod where I began to push the incremental changes to the live hosted site.
+
+To create the hosted site at Github Pages, I navigated to the Github repo settings tab and found the Github pages dedicated section.
+
+From there in the Source dropdown menu I clicked on "main", and then "Save", from which I was supplied a live link that would be ready in a few minutes. Live link is available here (https://barry-greaves.github.io/machine-learning/index.html)
+
+<hr>
+
+# Credits 
+
+## Content
+
+## Media
+
+<hr>
+
 
