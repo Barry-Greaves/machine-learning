@@ -12,7 +12,8 @@ The website was created using HTML and CSS.
 <br>
 <br>
 
-![machinelearning layouts](https://user-images.githubusercontent.com/107034179/185805565-10ba1a75-eabf-4a89-8ecb-fea2baa7bc03.png)
+![machine-learning-layouts](https://user-images.githubusercontent.com/107034179/186003923-d2d5f242-c7ee-4163-baf0-e84de04d425a.png)
+
 
 <hr>
 
