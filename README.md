@@ -166,11 +166,23 @@ In fututre updates to the website, I would like to embed videos in each tutorial
 
 <hr>
 
+# User Experience
+
 ## Wireframes
+
+The design process for the website begun with creating wireframes for the basic lay out of the website.
 
 ![index-wireframes](https://user-images.githubusercontent.com/107034179/186139728-ff84a93f-06e7-4948-93b0-5dda373506df.png)
 
 ![courses-wireframes](https://user-images.githubusercontent.com/107034179/186143284-623a739f-c7c4-417d-a236-89eafd5b1b2b.png)
+
+<hr>
+
+## Design
+
+<hr>
+
+## User Stories
 
 <hr>
 
@@ -180,9 +192,46 @@ In fututre updates to the website, I would like to embed videos in each tutorial
 
 The website was fully tested using W3C HTML and CSS validators. Each page was fully debugged and there are no errors on the final website. The results can be seen below
 
-![css-validator](https://user-images.githubusercontent.com/107034179/186013274-2e0276b8-f368-4033-a4ff-898cc0ef8812.jpg)
-![html-validator](https://user-images.githubusercontent.com/107034179/186013279-09ec97ea-e0c9-4ae1-bf90-8d9d5a79760c.jpg)
-usercontent.com/107034179/186008888-ee5c755b-6afb-4f07-8d5b-a18885e4408d.jpg)
+CSS stlye sheet shows no errors after validation:
+
+<img width="1436" alt="css-validator" src="https://user-images.githubusercontent.com/107034179/186147765-58a2fc86-caa1-4a1d-a185-cc22e8e7c51a.png">
+
+About page html shows no errors after validation:
+
+<img width="1436" alt="about-html-validator" src="https://user-images.githubusercontent.com/107034179/186148225-47e3e080-179a-48de-b1ff-c9145534f8ae.png">
+
+Contact page html shows no errors after validation:
+
+<img width="1436" alt="contact-html-validation" src="https://user-images.githubusercontent.com/107034179/186149217-13abfcc6-cbd8-48d0-95aa-3c5bdf953251.png">
+
+
+About page html shows no errors after validation:
+
+<img width="1436" alt="course-selection-html-validation" src="https://user-images.githubusercontent.com/107034179/186149853-3c7a6417-486a-4254-83a4-1c344e9e0034.png">
+
+About page html shows no errors after validation:
+
+<img width="1436" alt="home-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150796-bb44e83f-401f-4614-8d60-8aa4162e94bb.png">
+
+About page html shows no errors after validation:
+
+<img width="1436" alt="thankyou-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150819-805467c8-21a6-4058-a614-e2c0be1a8f09.png">
+
+About page html shows no errors after validation:
+
+<img width="1436" alt="privacy-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150822-e9b2f04d-e9c3-4f41-98d5-e79ad08bf507.png">
+
+Tutorials pagea  show no errors after validation:
+
+<img width="1436" alt="tutorials-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150825-a766f737-49cf-4ade-a389-a0f766272cd7.png">
+
+Tutorial selection pages show no errors after validation:
+
+<img width="1436" alt="tutorial-selection-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150829-aa667efb-1768-46ea-8a86-0cbb0894c77c.png">
+
+
+
+
 
 <hr>
 
