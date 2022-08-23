@@ -172,7 +172,7 @@ In fututre updates to the website, I would like to embed videos in each tutorial
 
 The design process for the website begun with creating wireframes for the basic lay out of the website.
 
-![index-wireframes](https://user-images.githubusercontent.com/107034179/186139728-ff84a93f-06e7-4948-93b0-5dda373506df.png)
+![index-wireframes img width=500 ](https://user-images.githubusercontent.com/107034179/186139728-ff84a93f-06e7-4948-93b0-5dda373506df.png)
 
 ![courses-wireframes](https://user-images.githubusercontent.com/107034179/186143284-623a739f-c7c4-417d-a236-89eafd5b1b2b.png)
 
@@ -204,7 +204,6 @@ Contact page html shows no errors after validation:
 
 <img width="1436" alt="contact-html-validation" src="https://user-images.githubusercontent.com/107034179/186149217-13abfcc6-cbd8-48d0-95aa-3c5bdf953251.png">
 
-
 About page html shows no errors after validation:
 
 <img width="1436" alt="course-selection-html-validation" src="https://user-images.githubusercontent.com/107034179/186149853-3c7a6417-486a-4254-83a4-1c344e9e0034.png">
@@ -221,7 +220,7 @@ About page html shows no errors after validation:
 
 <img width="1436" alt="privacy-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150822-e9b2f04d-e9c3-4f41-98d5-e79ad08bf507.png">
 
-Tutorials pagea  show no errors after validation:
+Tutorials page show no errors after validation:
 
 <img width="1436" alt="tutorials-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150825-a766f737-49cf-4ade-a389-a0f766272cd7.png">
 
@@ -229,32 +228,28 @@ Tutorial selection pages show no errors after validation:
 
 <img width="1436" alt="tutorial-selection-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150829-aa667efb-1768-46ea-8a86-0cbb0894c77c.png">
 
-
-
-
-
 <hr>
 
 ## Performance Testing
 
 I tested the performance of each page using Google Chrome's Lighthouse feature in the Dev Tools. The website scored 100% for Accesibility, SEO and Best Practices on all pages, but fell short on Performace with a score that varies between 98% and 99%. The results can be seen below. 
 
-
+#### Index page
 ![index-lighthouse](https://user-images.githubusercontent.com/107034179/186008888-ee5c755b-6afb-4f07-8d5b-a18885e4408d.jpg)
-
+#### Software courses page
 ![software-lighthouse](https://user-images.githubusercontent.com/107034179/186008886-cfc4fdfc-77e7-4fec-8de1-d475fa2a6534.jpg)
-
-![ableton-lighthouse](https://user-images.githubusercontent.com/107034179/186008885-44500170-e7ae-4685-a9b5-3631418365b9.jpg)
-
+#### Hardware courses page
 ![hardware-lighthouse](https://user-images.githubusercontent.com/107034179/186008883-41d9dc06-51b0-445b-87af-487523b211e3.jpg)
-
-![contact-lighthouse](https://user-images.githubusercontent.com/107034179/186008882-b993a62e-d8c8-4198-804a-d498468eb046.jpg)
-
-![privacy-lighthouse](https://user-images.githubusercontent.com/107034179/186008881-c689add2-e601-4893-8d39-d760c4960c1c.jpg)
-
+#### Courses info pages
+![ableton-lighthouse](https://user-images.githubusercontent.com/107034179/186008885-44500170-e7ae-4685-a9b5-3631418365b9.jpg)
+#### Tutorial selection page
 ![tutorials-lighthouse](https://user-images.githubusercontent.com/107034179/186008879-e2bbf31e-d50f-41af-9144-e14fc19d3320.jpg)
-
+#### Tutorial pages
 ![rytmtutorial-lighthouse](https://user-images.githubusercontent.com/107034179/186008877-c30df268-b13a-4690-9d94-706750c13e17.jpg)
+#### Contact pagee
+![contact-lighthouse](https://user-images.githubusercontent.com/107034179/186008882-b993a62e-d8c8-4198-804a-d498468eb046.jpg)
+#### Privacy page
+![privacy-lighthouse](https://user-images.githubusercontent.com/107034179/186008881-c689add2-e601-4893-8d39-d760c4960c1c.jpg)
 
 <hr>
 
@@ -286,19 +281,25 @@ From there in the Source dropdown menu I clicked on "main", and then "Save", fro
 
 The the majority of the code used for the website is original and created using what I learned in the Code Institute HTML and CSS Modules. Any additional sources are outlined below. 
 
-### Supler Simple Dev - HTML & CSS Full Course https://youtu.be/G3e-cpL7ofc
+### Supler Simple Dev - [HTML & CSS Full Course](https://youtu.be/G3e-cpL7ofc)
 
 I used this resource to learn the principals of flexboxes and CSS grid which are used extensively throughout the website. 
 
-### Code with Ania Kubów - HTML Forms using Form Submit https://www.youtube.com/watch?v=r4RQ38EoLds
+### Code with Ania Kubów - [HTML Forms using Form Submit](https://www.youtube.com/watch?v=r4RQ38EoLds)
 
 I used this tutorial to learn how to create a working HTML form using only HTML & CSS linking it to the free Form Submit service.  
 
-### Angela Delise - Responsive Navigation Bar Only CSS | Mobile First Design https://www.youtube.com/watch?v=SIzi9z8mrTk
+### Angela Delise - [Responsive Navigation Bar Only CSS | Mobile First Design](https://www.youtube.com/watch?v=SIzi9z8mrTk)
 
 I used this tutorial to learn how to create a responsive nav bar that switched to a burger icon when the screen narrows to a max width 900px. I used a modified version of the code for the live website, but the principal of creating a checkbox to control the burger icon was taken from this tutorial. 
 
 ## Media
+
+The images used for the hero images on the index, software & hardware courses pages courses were licenced from [Adobe Stock](https://stock.adobe.com/).
+
+The studio image of headphones used in the about section on the index page is from [Pexels](https://www.pexels.com/).
+
+The images used for the hardware course, software and tutorials pages aswell as the courses selection grid were created in Adobe Photoshop. I used PNG images of various pieces of hardware downloaed from [Fav PNG](https://favpng.com/) and overlayed them onto created background images I created using the websites color palette. 
 
 <hr>
 
