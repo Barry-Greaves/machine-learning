@@ -188,6 +188,16 @@ The design process for the website begun with creating wireframes for the basic 
 
 # Testing
 
+## Functionality Testing
+
+Through out the process of building the website I tested it across different browsers to ensure it displayed properly. These included Google Chrome, Firefox and Microsoft Edge. 
+
+I also periodically tested the website on a smart phone, tablet, small laptop and large monitor to ensure the websites' responsive design displayed correctly across a multitude of platforms. I also used Google Chrome's Dev Tools to test this functionality. 
+
+I checked the contact form, and always re-enabled it after making any changes to ensure it worked correctly and sent all responses to the delegated email address. 
+
+<hr>
+
 ## HTML & CSS Validation
 
 The website was fully tested using W3C HTML and CSS validators. Each page was fully debugged and there are no errors on the final website. The results can be seen below
@@ -246,7 +256,7 @@ I tested the performance of each page using Google Chrome's Lighthouse feature i
 ![tutorials-lighthouse](https://user-images.githubusercontent.com/107034179/186008879-e2bbf31e-d50f-41af-9144-e14fc19d3320.jpg)
 #### Tutorial pages
 ![rytmtutorial-lighthouse](https://user-images.githubusercontent.com/107034179/186008877-c30df268-b13a-4690-9d94-706750c13e17.jpg)
-#### Contact pagee
+#### Contact page
 ![contact-lighthouse](https://user-images.githubusercontent.com/107034179/186008882-b993a62e-d8c8-4198-804a-d498468eb046.jpg)
 #### Privacy page
 ![privacy-lighthouse](https://user-images.githubusercontent.com/107034179/186008881-c689add2-e601-4893-8d39-d760c4960c1c.jpg)
