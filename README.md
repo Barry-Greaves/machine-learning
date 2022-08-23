@@ -166,6 +166,14 @@ In fututre updates to the website, I would like to embed videos in each tutorial
 
 <hr>
 
+## Wireframes
+
+![index-wireframes](https://user-images.githubusercontent.com/107034179/186139728-ff84a93f-06e7-4948-93b0-5dda373506df.png)
+
+![courses-wireframes](https://user-images.githubusercontent.com/107034179/186143284-623a739f-c7c4-417d-a236-89eafd5b1b2b.png)
+
+<hr>
+
 # Testing
 
 ## HTML & CSS Validation
