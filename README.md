@@ -349,12 +349,17 @@ I used this tutorial to learn how to create a responsive nav bar that switched t
 
 ## Media
 
+### Images
+
 The images used for the hero images on the index, software & hardware courses pages courses were licenced from [Adobe Stock](https://stock.adobe.com/).
 
 The studio image of headphones used in the about section on the index page is from [Pexels](https://www.pexels.com/).
 
 The images used for the hardware course, software and tutorials pages aswell as the courses selection grid were created in Adobe Photoshop. I used PNG images of various pieces of hardware downloaed from [Fav PNG](https://favpng.com/) and overlayed them onto created background images I created using the websites color palette. 
 
+### Fonts
+
+### Icons
 <hr>
 
 
