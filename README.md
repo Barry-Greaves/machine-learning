@@ -165,11 +165,11 @@ In fututre updates to the website, I would like to:
 
 Embed videos in each tutorial and course page so users have an clear vision of what the content looks like on the front end of the website. 
 
-Create slide show for tutorials section so it takes up less space on the index page and users can browse through the different tutorials by clicking on an arrow but located underneath the tutorial image. 
+Create slide show for tutorials section so it takes up less space on the index page and users can browse through the different tutorials by clicking on an arrow button located underneath the tutorial image. 
 
 Add a checkout page where customers can select and pay for their chosen course directly on the webiste. 
 
-Purchase an extended licence the [Ultra Brutalism](https://shop.studioinnate.com/product/ultra-brutalism/) used to create the Machine Learning logo. This would would allow me intergrate into the website as text and use semantic markup. 
+Purchase an extended licence the [Ultra Brutalism](https://shop.studioinnate.com/product/ultra-brutalism/) font used to create the Machine Learning logo. This would would allow me intergrate into the website as text and use semantic markup. 
 
 <hr>
 
@@ -187,15 +187,15 @@ The design process for the website begun with creating wireframes to sketch the 
 
 ## Design
 
-The website was designed with the intent of combining a striking visual aesthetic with functionality and uniformity being consist across the different sections of the website. 
+The website was designed with the intent of combining a striking visual look with functionality and uniformity being consist across the different sections of the website. 
 
-I chosee a color palette which combines purples & greys overlaying a light beige background. 
+I chose a color palette which combines purples & greys overlaying a light beige background. 
 
 <img src="https://user-images.githubusercontent.com/107034179/186390392-2d2926d9-cb4c-4d54-90f7-a3559549a6e5.jpeg" alt="palette" width="200"/>
 
 Each page on the website contains the header and footer section which let users easily navigate to each section of the website. 
 
-The 3 hero images taken from Adobe Stock were chosen for their professional quality.   
+The hero images used on each page are striking, relevant and in keeping with the websites aesthetic. They are a combination of licenced images from Adboe stock and custome images created in Adboe Photoshop. 
 
 The Machine Learning Logo was created in Adobe Photoshop and uses the [Ultra Brutalism](https://shop.studioinnate.com/product/ultra-brutalism/) font from Studio Inate. 
 
@@ -203,11 +203,28 @@ All headers through out the website use Myriad Pro Condensed which was licenced 
 
 For all paragraph content, I used Roboto Mono from Google fonts. This is a monospaced font, the same stlye which is used in all code editors and felt like the appropriate choice for this project. It contrasts the headers nicely and is easy on the eye. 
 
-
-
 <hr>
 
 ## User Stories
+
+### User 1
+
+User 1 is a music producer who has just purchased their first piece of hardware and is struggling to get to grips with it. They have invested heavily in the equipment but cannot use it to it's full potential due to a lack of knowledge and experience. They are searching the internet for good tips and tricks to point them in the right direction. 
+
+User 1 will land on the website and immediately be given a run down of what Machine Learning has to offer and how they can learn to use their equipment on the website. In the hardware tutorials section they can find the courses available for their instument. After reading the course description, they can sign up through the contact page. 
+
+### User 2
+
+User 2 is an experienced music producer who is wants to elevate their productions by learning how to mix and master. 
+
+User 2 can will find this course listed on the home page, they can then jump into the course description page where they can read a detailed descrption of what they can expect to learn on the course. After reading this the different pricing plans are listed on the same page and they will be prompted to contact Machine Learning to sign up to the course or message the company if they want some more information before signing up. 
+
+### User 3
+
+User 3 is just beginning their journey into music production and is looking for tutorials to help them learn the basics. They do not have a budget to spend but are eager to learn. 
+
+User 3 can explore the latest tutorials section where they find all of the free content available on the website. They can can then explore the paid courses section where they can sign up to a free 7 day trial. This will allow them to experience the paid content on the website for a short period and they can decide if it is worth saving up for in the future. 
+
 
 <hr>
 
@@ -290,23 +307,25 @@ I tested the performance of each page using Google Chrome's Lighthouse feature i
 
 ## Unfixed Bugs
 
-There were no remaining bugs at the time of deploymenet, each element on the website is functioning as it should be
+There were no remaining bugs at the time of deploymenet, each element on the website is functioning as it should be.
 
 <hr>
 
 # Deployment
 
-I accessed the Code Institute template at [https://github.com/Code-Institute-Org/gitpod-full-template] and clicked on the "Use This Template" button.
+I created the repository using the [Code Institute Gitpod Template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
-The next step was to give my repository a suitable name on Github, and create it thereafter.
+I selected "Use this template" and then created a new repository using the full template. 
 
-On the following page I clicked on the green Gitpod button, which is accessible having installed the Gitpod extension to Google Chrome browser.
+Once in Github repository I then set up the development environment in Gitpod
 
-This created my development environment on Gitpod where I began to push the incremental changes to the live hosted site.
+I begun the website by creating an index.html page and css style sheet. 
 
-To create the hosted site at Github Pages, I navigated to the Github repo settings tab and found the Github pages dedicated section.
+I committed all updates through the development process, ensuring they were well defined and included a clear message describing the reason for each commit. 
 
-From there in the Source dropdown menu I clicked on "main", and then "Save", from which I was supplied a live link that would be ready in a few minutes. Live link is available here (https://barry-greaves.github.io/machine-learning/index.html)
+The website is hosted on Github pages and can be found by navigated to the settings tab in the repoistory and then clicking on pages where you can find a link to the live website. 
+
+Live link is available here: https://barry-greaves.github.io/machine-learning/index.html
 
 <hr>
 
