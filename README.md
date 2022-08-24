@@ -4,7 +4,7 @@
 
 This is the website for Machine Learning, an online electronic music academeny based in Dublin, Ireland. 
 
-From their Dublin studio they have created an extensive library of production tutorials and courses which range from focused workshops on specific pieces of hardware to general topics like mixing and mastering in Ableton Live. Their courses are structured to maximize your development of theortical knowledge, technical skills and creative abilities in a short space of time.
+The company has created a library of production tutorials and courses which range from focused workshops on specific pieces of hardware to general topics like mixing and mastering in Ableton Live. Their courses are structured to maximize your development of theortical knowledge, technical skills and creative abilities in a short space of time.
 
 The goal of this project was to build a creative & striking website which helps to create an indentity for the company as well as one which is easy to navigate, properly structured and responsive. 
 
@@ -45,11 +45,11 @@ Using responsive CSS styling, all items are centered and the social media icons 
 
 ### Home Page
 
-This is the first page users will see when they enter the website and needs to serve two purposes. The first is to be visually appealing, presenting the companies aesthetic to gain the users attention. The second is provide information on who the company are and what they can offer to encourage the user to continue and explor all  other areas of the website. The home page is split into 4 sections; the hero image, the about section, the latest tutorials section and the latest courses section. 
+This is the first page users will see when they enter the website and needs to serve two purposes. The first is to be visually appealing, presenting the companies aesthetic to gain the users attention. The second is provide information on who the company are and what they can offer to encourage the user to continue and explore all  other areas of the website. The home page is split into 4 sections; the hero image, the about section, the latest tutorials section and the latest courses section. 
 
 #### Hero Image
 
-The hero image covers the width of the page and is coded to be 70vh in height. It contains an visually striking studio set up overlayed with the Machine Learning logo and color scheme. 
+The hero image covers the width of the page and contains an visually striking studio set up overlayed with the Machine Learning logo and color scheme. 
 
 ![hero-index](https://user-images.githubusercontent.com/107034179/185805639-9e550054-b170-4082-b6e6-92089b3e6d54.png)
 
@@ -61,7 +61,7 @@ The about section contains essential information about Machine Learning, and wha
 
 #### Latest Tutorials Section
 
-To engage potential customers as soon as they land on the site, it was important to include links to the Machine Learning content on the home page. The latest tutorials section was chosen to appear first as this is free content and can be used to entice customers to other sections of the website. The tutorials section containts two more images which span the widht of the page, containing a tutorial title and brief description. 
+To engage potential customers as soon as they land on the site, it was important to include links to the Machine Learning content on the home page. The latest tutorials section was chosen to appear first as this is free content and can be used to entice customers to other sections of the website. The tutorials section containts two more images which span the width of the page, containing a tutorial title and brief description. 
 
 ![tutoritals section](https://user-images.githubusercontent.com/107034179/185805881-25a7d19e-1a61-4a2d-87b0-918f0a6baf4e.png)
 
@@ -79,7 +79,7 @@ Both of the courses pages, hardware and software, are structed in the same way. 
 
 #### Hero Image
 
-The courses page hero image spans the width of the website with a height of 60vh. The hero images contain overlay text with a header displaying the page name and a prompt underneath which links users to the contact page where they can sign up to a course. 
+The hero images contain overlay text with a header displaying the page name and a prompt underneath which links users to the contact page where they can sign up to a course. 
 
 ![software-hero](https://user-images.githubusercontent.com/107034179/185806089-0af5740c-b8f7-4c78-8478-3ab6a22d2ef7.png)
 
@@ -91,7 +91,7 @@ The info section contains details about all of the courses available through Mac
 
 #### Courses Section
 
-The courses section uses the same code and layout structure as used on the home page. Three different courses are layed out using CSS grid, with an image displaying over the course description. Both the image and the description are linked the relevant course page. 
+Three different courses are layed out using CSS grid, with an image displaying over the course description. Both the image and the description are linked the relevant course page. 
 
 <img width="1421" alt="coursesgrid" src="https://user-images.githubusercontent.com/107034179/184040112-bfe47285-05b5-4fa2-b99c-7287e8641e10.png">
 
@@ -109,7 +109,7 @@ Each of the hero images used displays the machine that is being taught in the co
 
 #### Course Info & Offer Section
 
-The main section of the page is split in two using a flex box with a ratio of 3:1. The left section then contains grids on top of divs to display the course info and the right section displays the different pricing options for each of the courses on offer. 
+The main section of the page is split in two using a flex box with a ratio of 3:1. The left section then contains grids on top of divs to display the course info and the section to the right of this displays the different pricing options for each of the courses on offer. 
 
 ![courseslayout](https://user-images.githubusercontent.com/107034179/184042511-71d6f1cc-0588-401a-983b-038a27d2c5df.png)
 
@@ -161,8 +161,15 @@ The privacy page provides information on Machine Learnings' privacy policy. The 
 
 ## Features to Implement
 
-In fututre updates to the website, I would like to embed videos in each tutorial and course page so users have an clear vision of what the content looks like on the front end of the website. 
+In fututre updates to the website, I would like to: 
 
+Embed videos in each tutorial and course page so users have an clear vision of what the content looks like on the front end of the website. 
+
+Create slide show for tutorials section so it takes up less space on the index page and users can browse through the different tutorials by clicking on an arrow but located underneath the tutorial image. 
+
+Add a checkout page where customers can select and pay for their chosen course directly on the webiste. 
+
+Purchase an extended licence the [Ultra Brutalism](https://shop.studioinnate.com/product/ultra-brutalism/) used to create the Machine Learning logo. This would would allow me intergrate into the website as text and use semantic markup. 
 
 <hr>
 
@@ -170,7 +177,7 @@ In fututre updates to the website, I would like to embed videos in each tutorial
 
 ## Wireframes
 
-The design process for the website begun with creating wireframes for the basic lay out of the website.
+The design process for the website begun with creating wireframes to sketch the layout of the website. They were created in Adobe Photoshop and provided a basic design structure to work off when coding the website. I stuck to the basic structure when creating the website, but there was a lot of back and forth in the design process, particularly with the hero images, before I was happy with the final result.  
 
 ![index-wireframes img width=500 ](https://user-images.githubusercontent.com/107034179/186139728-ff84a93f-06e7-4948-93b0-5dda373506df.png)
 
@@ -179,6 +186,24 @@ The design process for the website begun with creating wireframes for the basic 
 <hr>
 
 ## Design
+
+The website was designed with the intent of combining a striking visual aesthetic with functionality and uniformity being consist across the different sections of the website. 
+
+I chosee a color palette which combines purples & greys overlaying a light beige background. 
+
+<img src="https://user-images.githubusercontent.com/107034179/186390392-2d2926d9-cb4c-4d54-90f7-a3559549a6e5.jpeg" alt="palette" width="200"/>
+
+Each page on the website contains the header and footer section which let users easily navigate to each section of the website. 
+
+The 3 hero images taken from Adobe Stock were chosen for their professional quality.   
+
+The Machine Learning Logo was created in Adobe Photoshop and uses the [Ultra Brutalism](https://shop.studioinnate.com/product/ultra-brutalism/) font from Studio Inate. 
+
+All headers through out the website use Myriad Pro Condensed which was licenced through Adobe Fonts. This a humanist sans-serif with an informal and welcoming aesthetic. 
+
+For all paragraph content, I used Roboto Mono from Google fonts. This is a monospaced font, the same stlye which is used in all code editors and felt like the appropriate choice for this project. It contrasts the headers nicely and is easy on the eye. 
+
+
 
 <hr>
 
@@ -312,5 +337,7 @@ The studio image of headphones used in the about section on the index page is fr
 The images used for the hardware course, software and tutorials pages aswell as the courses selection grid were created in Adobe Photoshop. I used PNG images of various pieces of hardware downloaed from [Fav PNG](https://favpng.com/) and overlayed them onto created background images I created using the websites color palette. 
 
 <hr>
+
+
 
 
