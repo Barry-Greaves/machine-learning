@@ -326,6 +326,28 @@ I committed all updates through the development process, ensuring they were well
 The website is hosted on Github pages and can be found by navigated to the settings tab in the repoistory and then clicking on pages where you can find a link to the live website. 
 
 Live link is available here: https://barry-greaves.github.io/machine-learning/index.html
+<hr>
+
+# Forking This Project
+Fork this project following the steps:
+Open GitHub.
+Click on the project to be forked.
+Find the 'Fork' button to the top right of the page.
+Once you click the button the fork will be in your repository..
+
+<hr>
+
+# Cloning This Project
+
+Clone this project following the steps:
+Open GitHub.
+Click on the project to be cloned.
+You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
+Once you click the button the fork will be in your repository.
+Open a new terminal.
+Change the current working directory to the location that you want the cloned directory.
+Type 'git clone' and paste the URL copied in step 3.
+Press 'Enter' and the project is cloned.
 
 <hr>
 
