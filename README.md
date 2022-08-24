@@ -162,14 +162,10 @@ The privacy page provides information on Machine Learnings' privacy policy. The 
 ## Features to Implement
 
 In fututre updates to the website, I would like to: 
-
-Embed videos in each tutorial and course page so users have an clear vision of what the content looks like on the front end of the website. 
-
-Create slide show for tutorials section so it takes up less space on the index page and users can browse through the different tutorials by clicking on an arrow button located underneath the tutorial image. 
-
-Add a checkout page where customers can select and pay for their chosen course directly on the webiste. 
-
-Purchase an extended licence the [Ultra Brutalism](https://shop.studioinnate.com/product/ultra-brutalism/) font used to create the Machine Learning logo. This would would allow me intergrate into the website as text and use semantic markup. 
+- Embed videos in each tutorial and course page so users have an clear vision of what the content looks like on the front end of the website. 
+- Create slide show for tutorials section so it takes up less space on the index page and users can browse through the different tutorials by clicking on an arrow button located underneath the tutorial image. 
+- Add a checkout page where customers can select and pay for their chosen course directly on the webiste. 
+- Purchase an extended licence the [Ultra Brutalism](https://shop.studioinnate.com/product/ultra-brutalism/) font used to create the Machine Learning logo. This would would allow me intergrate into the website as text and use semantic markup. 
 
 <hr>
 
@@ -179,9 +175,10 @@ Purchase an extended licence the [Ultra Brutalism](https://shop.studioinnate.com
 
 The design process for the website begun with creating wireframes to sketch the layout of the website. They were created in Adobe Photoshop and provided a basic design structure to work off when coding the website. I stuck to the basic structure when creating the website, but there was a lot of back and forth in the design process, particularly with the hero images, before I was happy with the final result.  
 
-![index-wireframes img width=500 ](https://user-images.githubusercontent.com/107034179/186139728-ff84a93f-06e7-4948-93b0-5dda373506df.png)
+<img src="https://user-images.githubusercontent.com/107034179/186139728-ff84a93f-06e7-4948-93b0-5dda373506df.png" alt="wireframe" width=400/>
+<img src="https://user-images.githubusercontent.com/107034179/186143284-623a739f-c7c4-417d-a236-89eafd5b1b2b.png" alt="wireframe" width=400/>
 
-![courses-wireframes](https://user-images.githubusercontent.com/107034179/186143284-623a739f-c7c4-417d-a236-89eafd5b1b2b.png)
+
 
 <hr>
 
@@ -189,19 +186,19 @@ The design process for the website begun with creating wireframes to sketch the 
 
 The website was designed with the intent of combining a striking visual look with functionality and uniformity being consist across the different sections of the website. 
 
-I chose a color palette which combines purples & greys overlaying a light beige background. 
+- I chose a color palette which combines purples & greys overlaying a light beige background. 
 
 <img src="https://user-images.githubusercontent.com/107034179/186390392-2d2926d9-cb4c-4d54-90f7-a3559549a6e5.jpeg" alt="palette" width="200"/>
 
-Each page on the website contains the header and footer section which let users easily navigate to each section of the website. 
+- Each page on the website contains the header and footer section which let users easily navigate to each section of the website. 
 
-The hero images used on each page are striking, relevant and in keeping with the websites aesthetic. They are a combination of licenced images from Adboe stock and custome images created in Adboe Photoshop. 
+- The hero images used on each page are striking, relevant and in keeping with the websites aesthetic. They are a combination of licenced images from Adboe stock and custome images created in Adboe Photoshop. 
 
-The Machine Learning Logo was created in Adobe Photoshop and uses the [Ultra Brutalism](https://shop.studioinnate.com/product/ultra-brutalism/) font from Studio Inate. 
+- The Machine Learning Logo was created in Adobe Photoshop and uses the [Ultra Brutalism](https://shop.studioinnate.com/product/ultra-brutalism/) font from Studio Inate. 
 
-All headers through out the website use Myriad Pro Condensed which was licenced through Adobe Fonts. This a humanist sans-serif with an informal and welcoming aesthetic. 
+- All headers through out the website use Myriad Pro Condensed which was licenced through Adobe Fonts. This a humanist sans-serif with an informal and welcoming aesthetic. 
 
-For all paragraph content, I used Roboto Mono from Google fonts. This is a monospaced font, the same stlye which is used in all code editors and felt like the appropriate choice for this project. It contrasts the headers nicely and is easy on the eye. 
+- For all paragraph content, I used Roboto Mono from Google fonts. This is a monospaced font, the same stlye which is used in all code editors and felt like the appropriate choice for this project. It contrasts the headers nicely and is easy on the eye. 
 
 <hr>
 
@@ -211,20 +208,19 @@ For all paragraph content, I used Roboto Mono from Google fonts. This is a monos
 
 User 1 is a music producer who has just purchased their first piece of hardware and is struggling to get to grips with it. They have invested heavily in the equipment but cannot use it to it's full potential due to a lack of knowledge and experience. They are searching the internet for good tips and tricks to point them in the right direction. 
 
-User 1 will land on the website and immediately be given a run down of what Machine Learning has to offer and how they can learn to use their equipment on the website. In the hardware tutorials section they can find the courses available for their instument. After reading the course description, they can sign up through the contact page. 
+> User 1 will land on the website and immediately be given a run down of what Machine Learning has to offer and how they can learn to use their equipment on the website. In the hardware tutorials section they can find the courses available for their instument. After reading the course description, they can sign up through the contact page.
 
 ### User 2
 
 User 2 is an experienced music producer who is wants to elevate their productions by learning how to mix and master. 
 
-User 2 can will find this course listed on the home page, they can then jump into the course description page where they can read a detailed descrption of what they can expect to learn on the course. After reading this the different pricing plans are listed on the same page and they will be prompted to contact Machine Learning to sign up to the course or message the company if they want some more information before signing up. 
+> User 2 can will find this course listed on the home page, they can then jump into the course description page where they can read a detailed descrption of what they can expect to learn on the course. After reading this the different pricing plans are listed on the same page and they will be prompted to contact Machine Learning to sign up to the course or message the company if they want some more information before signing up.
 
 ### User 3
 
 User 3 is just beginning their journey into music production and is looking for tutorials to help them learn the basics. They do not have a budget to spend but are eager to learn. 
 
-User 3 can explore the latest tutorials section where they find all of the free content available on the website. They can can then explore the paid courses section where they can sign up to a free 7 day trial. This will allow them to experience the paid content on the website for a short period and they can decide if it is worth saving up for in the future. 
-
+> User 3 can explore the latest tutorials section where they find all of the free content available on the website. They can can then explore the paid courses section where they can sign up to a free 7 day trial. This will allow them to experience the paid content on the website for a short period and they can decide if it is worth saving up for in the future. 
 
 <hr>
 
@@ -313,41 +309,35 @@ There were no remaining bugs at the time of deploymenet, each element on the web
 
 # Deployment
 
-I created the repository using the [Code Institute Gitpod Template](https://github.com/Code-Institute-Org/gitpod-full-template)
-
-I selected "Use this template" and then created a new repository using the full template. 
-
-Once in Github repository I then set up the development environment in Gitpod
-
-I begun the website by creating an index.html page and css style sheet. 
-
-I committed all updates through the development process, ensuring they were well defined and included a clear message describing the reason for each commit. 
-
-The website is hosted on Github pages and can be found by navigated to the settings tab in the repoistory and then clicking on pages where you can find a link to the live website. 
-
-Live link is available here: https://barry-greaves.github.io/machine-learning/index.html
+- I created the repository using the [Code Institute Gitpod Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+- I selected "Use this template" and then created a new repository using the full template. 
+- Once in Github repository I then set up the development environment in Gitpod
+- I begun the website by creating an index.html page and css style sheet. 
+- I committed all updates through the development process, ensuring they were well defined and included a clear message describing the reason for each commit. 
+- The website is hosted on Github pages and can be found by navigated to the settings tab in the repoistory and then clicking on pages where you can find a link to the   live website. 
+-Live link is available here: https://barry-greaves.github.io/machine-learning/index.html
 <hr>
 
 # Forking This Project
-Fork this project following the steps:
-Open GitHub.
-Click on the project to be forked.
-Find the 'Fork' button to the top right of the page.
-Once you click the button the fork will be in your repository..
+- Fork this project following the steps:
+- Open GitHub.
+- Click on the project to be forked.
+- Find the 'Fork' button to the top right of the page.
+- Once you click the button the fork will be in your repository..
 
 <hr>
 
 # Cloning This Project
 
-Clone this project following the steps:
-Open GitHub.
-Click on the project to be cloned.
-You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
-Once you click the button the fork will be in your repository.
-Open a new terminal.
-Change the current working directory to the location that you want the cloned directory.
-Type 'git clone' and paste the URL copied in step 3.
-Press 'Enter' and the project is cloned.
+- Clone this project following the steps:
+- Open GitHub.
+- Click on the project to be cloned.
+- You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
+- Once you click the button the fork will be in your repository.
+- Open a new terminal.
+- Change the current working directory to the location that you want the cloned directory.
+- Type 'git clone' and paste the URL copied in step 3.
+- Press 'Enter' and the project is cloned.
 
 <hr>
 
@@ -359,29 +349,36 @@ The the majority of the code used for the website is original and created using 
 
 ### Supler Simple Dev - [HTML & CSS Full Course](https://youtu.be/G3e-cpL7ofc)
 
-I used this resource to learn the principals of flexboxes and CSS grid which are used extensively throughout the website. 
+- I used this resource to learn the principals of flexboxes and CSS grid which are used extensively throughout the website. 
 
 ### Code with Ania Kubów - [HTML Forms using Form Submit](https://www.youtube.com/watch?v=r4RQ38EoLds)
 
-I used this tutorial to learn how to create a working HTML form using only HTML & CSS linking it to the free Form Submit service.  
+- I used this tutorial to learn how to create a working HTML form using only HTML & CSS linking it to the free Form Submit service.  
 
 ### Angela Delise - [Responsive Navigation Bar Only CSS | Mobile First Design](https://www.youtube.com/watch?v=SIzi9z8mrTk)
 
-I used this tutorial to learn how to create a responsive nav bar that switched to a burger icon when the screen narrows to a max width 900px. I used a modified version of the code for the live website, but the principal of creating a checkbox to control the burger icon was taken from this tutorial. 
+- I used this tutorial to learn how to create a responsive nav bar that switched to a burger icon when the screen narrows to a max width 900px. I used a modified version of the code for the live website, but the principal of creating a checkbox to control the burger icon was taken from this tutorial. 
 
 ## Media
 
 ### Images
 
-The images used for the hero images on the index, software & hardware courses pages courses were licenced from [Adobe Stock](https://stock.adobe.com/).
+- The images used for the hero images on the index, software & hardware courses pages courses were licenced from [Adobe Stock](https://stock.adobe.com/).
 
-The studio image of headphones used in the about section on the index page is from [Pexels](https://www.pexels.com/).
+- The studio image of headphones used in the about section on the index page is from [Pexels](https://www.pexels.com/).
 
-The images used for the hardware course, software and tutorials pages aswell as the courses selection grid were created in Adobe Photoshop. I used PNG images of various pieces of hardware downloaed from [Fav PNG](https://favpng.com/) and overlayed them onto created background images I created using the websites color palette. 
+- The images used for the hardware course, software and tutorials pages aswell as the courses selection grid were created in Adobe Photoshop. I used PNG images of various pieces of hardware downloaed from [Fav PNG](https://favpng.com/) and overlayed them onto created background images I created using the websites color palette. 
 
 ### Fonts
 
+- Myriad Pro Condensed
+- Roboto Mono
+- Ultra Brutalism 
+
 ### Icons
+
+- I used [Font Awesome](https://fontawesome.com) for the social media icons in the footer on each page
+
 <hr>
 
 
