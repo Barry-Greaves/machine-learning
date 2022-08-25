@@ -9,6 +9,8 @@ The company has created a library of production tutorials and courses which rang
 The goal of this project was to build a creative & striking website which helps to create an indentity for the company as well as one which is easy to navigate, properly structured and responsive. 
 
 The website was created using HTML and CSS. 
+
+Link to live webstie: https://barry-greaves.github.io/machine-learning/
 <br>
 <br>
 
@@ -323,7 +325,7 @@ There were no remaining bugs at the time of deploymenet, each element on the web
 - I begun the website by creating an index.html page and css style sheet. 
 - I committed all updates through the development process, ensuring they were well defined and included a clear message describing the reason for each commit. 
 - The website is hosted on Github pages and the link can be found by navigating to the settings tab of the repoistory and then clicking on 'pages'.
-- Live link is available here: https://barry-greaves.github.io/machine-learning/index.html
+- Live link is available here: https://barry-greaves.github.io/machine-learning/
 
 <hr>
 
