@@ -1,4 +1,4 @@
-![ml-logo](https://user-images.githubusercontent.com/107034179/185223287-482e20e8-79f6-47e5-b98f-11dae908e9c3.png)
+<img width="500" alt="ml-logo" src="https://user-images.githubusercontent.com/107034179/185223287-482e20e8-79f6-47e5-b98f-11dae908e9c3.png">
 
 # Machine Learning - Project 1
 
@@ -178,8 +178,6 @@ The design process for the website begun with creating wireframes to sketch the 
 <img src="https://user-images.githubusercontent.com/107034179/186139728-ff84a93f-06e7-4948-93b0-5dda373506df.png" alt="wireframe" width=400/>
 <img src="https://user-images.githubusercontent.com/107034179/186143284-623a739f-c7c4-417d-a236-89eafd5b1b2b.png" alt="wireframe" width=400/>
 
-
-
 <hr>
 
 ## Design
@@ -238,49 +236,59 @@ I checked the contact form, and always re-enabled it after making any changes to
 
 ## HTML & CSS Validation
 
-The website was fully tested using W3C HTML and CSS validators. Each page was fully debugged and there are no errors on the final website. The results can be seen below
+- The website was fully tested using W3C HTML and CSS validators. 
+- After testing some errors showed where I had left some open divs and on the courses pages. 
+- Each page was fully debugged and there are no errors on the final website. 
+- The results can be seen below
 
-CSS stlye sheet shows no errors after validation:
+#### CSS stlye sheet shows no errors after validation:
 
 <img width="1436" alt="css-validator" src="https://user-images.githubusercontent.com/107034179/186147765-58a2fc86-caa1-4a1d-a185-cc22e8e7c51a.png">
 
-About page html shows no errors after validation:
+#### Index page html shows no errors after validation:
 
 <img width="1436" alt="about-html-validator" src="https://user-images.githubusercontent.com/107034179/186148225-47e3e080-179a-48de-b1ff-c9145534f8ae.png">
 
-Contact page html shows no errors after validation:
+#### Contact page html shows no errors after validation:
 
 <img width="1436" alt="contact-html-validation" src="https://user-images.githubusercontent.com/107034179/186149217-13abfcc6-cbd8-48d0-95aa-3c5bdf953251.png">
 
-About page html shows no errors after validation:
+#### About page html shows no errors after validation:
 
 <img width="1436" alt="course-selection-html-validation" src="https://user-images.githubusercontent.com/107034179/186149853-3c7a6417-486a-4254-83a4-1c344e9e0034.png">
 
-About page html shows no errors after validation:
+#### Privacy page html shows no errors after validation:
 
 <img width="1436" alt="home-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150796-bb44e83f-401f-4614-8d60-8aa4162e94bb.png">
 
-About page html shows no errors after validation:
+#### Thank you page html shows no errors after validation:
 
 <img width="1436" alt="thankyou-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150819-805467c8-21a6-4058-a614-e2c0be1a8f09.png">
 
-About page html shows no errors after validation:
+#### Course pages html shows no errors after validation:
 
 <img width="1436" alt="privacy-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150822-e9b2f04d-e9c3-4f41-98d5-e79ad08bf507.png">
 
-Tutorials page show no errors after validation:
+#### Courses info pages html show no errors after validation:
+
+<img width="1436" alt="privacy-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150822-e9b2f04d-e9c3-4f41-98d5-e79ad08bf507.png">
+
+#### Tutorials pages show no errors after validation:
 
 <img width="1436" alt="tutorials-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150825-a766f737-49cf-4ade-a389-a0f766272cd7.png">
 
-Tutorial selection pages show no errors after validation:
+#### Tutorial selection page shows no errors after validation:
 
 <img width="1436" alt="tutorial-selection-page-html-validation" src="https://user-images.githubusercontent.com/107034179/186150829-aa667efb-1768-46ea-8a86-0cbb0894c77c.png">
+
 
 <hr>
 
 ## Performance Testing
 
-I tested the performance of each page using Google Chrome's Lighthouse feature in the Dev Tools. The website scored 100% for Accesibility, SEO and Best Practices on all pages, but fell short on Performace with a score that varies between 98% and 99%. The results can be seen below. 
+I tested the performance of each page using Google Chrome's Lighthouse feature in the Dev Tools. The initial scores after the first round of testing were low on performance. This was primarily due to using very large PNG files. The fix this and improve the websites performance I converted all image files to webp using [Online Convert](https://image.online-convert.com/convert-to-webp). This drastically reduced the file size and the websites' overall performance. 
+
+The website has now scored 100% for Accesibility, SEO and Best Practices on all pages, but still fell slightly short on Performace with a score that varies between 98% and 99%. The results can be seen below. 
 
 #### Index page
 ![index-lighthouse](https://user-images.githubusercontent.com/107034179/186008888-ee5c755b-6afb-4f07-8d5b-a18885e4408d.jpg)
@@ -314,30 +322,31 @@ There were no remaining bugs at the time of deploymenet, each element on the web
 - Once in Github repository I then set up the development environment in Gitpod
 - I begun the website by creating an index.html page and css style sheet. 
 - I committed all updates through the development process, ensuring they were well defined and included a clear message describing the reason for each commit. 
-- The website is hosted on Github pages and can be found by navigated to the settings tab in the repoistory and then clicking on pages where you can find a link to the   live website. 
--Live link is available here: https://barry-greaves.github.io/machine-learning/index.html
+- The website is hosted on Github pages and the link can be found by navigating to the settings tab of the repoistory and then clicking on 'pages'.
+- Live link is available here: https://barry-greaves.github.io/machine-learning/index.html
+
 <hr>
 
 # Forking This Project
-- Fork this project following the steps:
-- Open GitHub.
-- Click on the project to be forked.
-- Find the 'Fork' button to the top right of the page.
-- Once you click the button the fork will be in your repository..
+
+Fork this project following the steps:
+- In Github navigate to github.com/Barry-Greaves/machine-learning/
+- Click on 'Fork' located in the top right hand corner of the repository
+- Select an owner for the forked repository.
+- Click 'create fork'
 
 <hr>
 
 # Cloning This Project
 
-- Clone this project following the steps:
+Clone this project following the steps:
 - Open GitHub.
-- Click on the project to be cloned.
-- You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
-- Once you click the button the fork will be in your repository.
-- Open a new terminal.
-- Change the current working directory to the location that you want the cloned directory.
-- Type 'git clone' and paste the URL copied in step 3.
-- Press 'Enter' and the project is cloned.
+- Select the Machine Learning Project
+- Click the clipboard icon in order to copy the URL
+- Open the terminal.
+- Change the current working directory to the location where you want the cloned directory.
+- Type 'git clone' and then paste the URL you have copied. 
+- Press 'Enter' and your clone has been create. 
 
 <hr>
 
@@ -345,7 +354,7 @@ There were no remaining bugs at the time of deploymenet, each element on the web
 
 ## Content
 
-The the majority of the code used for the website is original and created using what I learned in the Code Institute HTML and CSS Modules. Any additional sources are outlined below. 
+The the majority of the code used for the website is original and created using what I learned in the Code Institute HTML and CSS Modules and Love Running Project. Any additional sources are outlined below. 
 
 ### Supler Simple Dev - [HTML & CSS Full Course](https://youtu.be/G3e-cpL7ofc)
 
@@ -371,13 +380,14 @@ The the majority of the code used for the website is original and created using 
 
 ### Fonts
 
-- Myriad Pro Condensed
-- Roboto Mono
-- Ultra Brutalism 
+- Myriad Pro Condensed from [Adobe Fonts](https://fonts.adobe.com/fonts/myriad)
+- Roboto Mono from [Google Fonts](https://fonts.google.com/specimen/Roboto+Mono)
+- Ultra Brutalism from [Studio Inate](https://shop.studioinnate.com/product/ultra-brutalism/)
 
 ### Icons
 
 - I used [Font Awesome](https://fontawesome.com) for the social media icons in the footer on each page
+- I used synth icons throughout the website in hero images and company logo from [The Noun Project](https://thenounproject.com/)
 
 <hr>
 
